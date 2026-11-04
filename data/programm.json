@@ -1,0 +1,227 @@
+{
+ "updatedAt": "2026-11-04T22:20:00Z",
+ "source": "kinoprogramm.com, ovkinos.de",
+ "window": {
+  "from": "2026-11-04",
+  "to": "2026-11-17"
+ },
+ "note": "Startbestand – das volle Programm folgt mit dem ersten Wochenabgleich.",
+ "items": [
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-05",
+   "time": "21:40",
+   "version": "OmU"
+  },
+  {
+   "title": "Coyote vs. ACME",
+   "cinema": "Abaton",
+   "date": "2026-11-05",
+   "time": "22:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Abaton",
+   "date": "2026-11-05",
+   "time": "22:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-06",
+   "time": "21:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Primetime",
+   "cinema": "Zeise",
+   "date": "2026-11-06",
+   "time": "22:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Primetime",
+   "cinema": "Abaton",
+   "date": "2026-11-06",
+   "time": "22:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Coyote vs. ACME",
+   "cinema": "Kinopolis HafenCity (Westfield)",
+   "date": "2026-11-07",
+   "time": "12:00",
+   "version": "OV"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Abaton",
+   "date": "2026-11-07",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Passage",
+   "date": "2026-11-07",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Magazin",
+   "date": "2026-11-07",
+   "time": "20:30",
+   "version": ""
+  },
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-07",
+   "time": "21:40",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Abaton",
+   "date": "2026-11-07",
+   "time": "22:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Savoy",
+   "date": "2026-11-07",
+   "time": "22:15",
+   "version": "OV"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity (Westfield)",
+   "date": "2026-11-07",
+   "time": "22:15",
+   "version": "OV"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Abaton",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Passage",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Magazin",
+   "date": "2026-11-08",
+   "time": "17:30",
+   "version": ""
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Abaton",
+   "date": "2026-11-08",
+   "time": "20:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Primetime",
+   "cinema": "Zeise",
+   "date": "2026-11-08",
+   "time": "21:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity (Westfield)",
+   "date": "2026-11-08",
+   "time": "22:15",
+   "version": "OV"
+  },
+  {
+   "title": "Primetime",
+   "cinema": "Abaton",
+   "date": "2026-11-08",
+   "time": "22:20",
+   "version": "OmU"
+  },
+  {
+   "title": "Primetime",
+   "cinema": "Abaton",
+   "date": "2026-11-09",
+   "time": "22:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Abaton",
+   "date": "2026-11-10",
+   "time": "14:20",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel",
+   "cinema": "Abaton",
+   "date": "2026-11-11",
+   "time": "22:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-11",
+   "time": "22:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity (Westfield)",
+   "date": "2026-11-11",
+   "time": "22:15",
+   "version": "OV"
+  }
+ ],
+ "tipps": [
+  {
+   "title": "Die Blutgräfin",
+   "director": "Ulrike Ottinger",
+   "year": 2026,
+   "running": true,
+   "where": "Läuft jetzt · Abaton (OmU)",
+   "why": "Isabelle Huppert als Vampirgräfin in Wien, Dialoge mit Elfriede Jelinek – barockes Genre-Arthouse."
+  },
+  {
+   "title": "La Bola Negra",
+   "director": "Javier Calvo, Javier Ambrossi",
+   "year": 2026,
+   "running": false,
+   "where": "Kinostart 19.11.",
+   "why": "Regiepreis Cannes 2026 (geteilt mit „Vaterland“). Drei Zeitebenen um ein unvollendetes Lorca-Werk."
+  },
+  {
+   "title": "NAZA",
+   "director": "Yuval Abraham, Rachel Szor",
+   "year": 2026,
+   "running": true,
+   "where": "Läuft jetzt · Abaton (OmU)",
+   "why": "Spezialpreis der Jury in Venedig, von den Machern von „No Other Land“. Politisch heftig diskutiert."
+  },
+  {
+   "title": "Vaterland",
+   "director": "Paweł Pawlikowski",
+   "year": 2026,
+   "running": true,
+   "where": "Läuft noch · Abaton, Passage",
+   "why": "Sandra Hüller als Erika Mann, Regiepreis Cannes 2026. 82 Minuten Schwarzweiß."
+  }
+ ]
+}
