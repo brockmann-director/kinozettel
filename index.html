@@ -64,6 +64,14 @@ label.f{display:block;font-size:12px;color:var(--muted);margin:14px 0 6px;text-t
 .prog{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin-bottom:8px}
 .prog .times{font-size:13px;color:var(--muted);margin-top:4px}
 .prog .times span{font-family:"Geist Mono",ui-monospace,monospace;color:var(--ink)}
+.info{cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:flex-end;justify-content:center;z-index:50;padding:16px calc(16px + env(safe-area-inset-bottom))}
+@media (min-width:600px){.ov{align-items:center}}
+.sheet{background:var(--panel);border:1px solid var(--line);border-radius:18px;max-width:520px;width:100%;padding:18px;max-height:80vh;overflow:auto}
+.sheet h3{margin:0 0 4px;font-size:20px;letter-spacing:-.02em}
+.sheet p{margin:12px 0}
+.sheet .x{float:right;background:none;border:0;color:var(--muted);font-size:22px;cursor:pointer;line-height:1}
+a.btn{color:var(--ink);text-decoration:none;display:inline-block}
 .toprow{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 @media (max-width:520px){.show{grid-template-columns:52px 1fr}.show .act{grid-column:1/-1}.time{font-size:16px}h1{font-size:26px}}
 </style>
@@ -82,12 +90,13 @@ label.f{display:block;font-size:12px;color:var(--muted);margin:14px 0 6px;text-t
     <button data-v="profil">Profil</button>
   </nav>
   <main id="main"></main>
+  <div id="modal"></div>
 </div>
 <script>
 const SB_URL = 'https://xvhuljefiqvprabpapcb.supabase.co';
 const SB_KEY = 'sb_publishable_E7jP8kgVCX3kTVs9KICmcA_M9TXuCkh';
 
-const S = { token:null, me:null, prog:null, view:'woche', fOV:false, fEve:false, q:'', err:'', loading:true };
+const S = { token:null, me:null, prog:null, filme:null, info:null, view:'woche', fOV:false, fEve:false, q:'', err:'', loading:true };
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const WD=['So','Mo','Di','Mi','Do','Fr','Sa'], MO=['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
@@ -127,6 +136,23 @@ function upcoming(){
 }
 const activeFilms = () => (S.me && S.me.films || []).filter(f => f.status === 'watch');
 const filmFor = title => activeFilms().find(f => sameFilm(f.title, title));
+function infoFor(title){
+  const list = S.filme && Array.isArray(S.filme.items) ? S.filme.items : [];
+  const e = list.find(i => [i.t, ...(i.a||[])].some(n => sameFilm(n, title)));
+  const tip = S.prog && Array.isArray(S.prog.tipps) ? S.prog.tipps.find(t => sameFilm(t.title, title)) : null;
+  return { title: (e && e.t) || title, director: (e && e.d) || (tip && tip.director) || '', year: (e && e.y) || (tip && tip.year) || '', text: (e && e.s) || '' };
+}
+const infoT = t => ` class="info" data-info="${esc(t)}"`;
+function vInfo(){
+  if(!S.info) return '';
+  const i = infoFor(S.info);
+  const sub = [i.director, i.year].filter(Boolean).map(esc).join(' · ');
+  const q = encodeURIComponent(i.title + ' Film ' + (i.year||''));
+  return `<div class="ov" id="ov"><div class="sheet" role="dialog" aria-label="${esc(i.title)}"><button class="x" id="ovx" aria-label="Schließen">×</button>
+    <h3>${esc(i.title)}</h3>${sub?`<div class="meta">${sub}</div>`:''}
+    ${i.text ? `<p>${esc(i.text)}</p>` : `<p class="meta">Zu diesem Film gibt es noch keine Kurzbeschreibung.</p>`}
+    <a class="btn ghost" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">Mehr im Web</a></div></div>`;
+}
 const planKey = x => x.title+'|'+x.cinema+'|'+x.date+'|'+x.time;
 
 // --- Ansichten ---
@@ -141,13 +167,14 @@ function render(){
   else if(!S.me) h += `<div class="note err"><b>Dieser Link ist ungültig.</b> Frag nach deinem persönlichen Link.</div>`;
   else h += ({woche:vWoche, watch:vWatch, programm:vProg, tipps:vTipps, profil:vProfil})[S.view]();
   $('#main').innerHTML = h;
+  $('#modal').innerHTML = vInfo();
   bind();
 }
 function vWoche(){
   let h = '';
   const plans = S.me.plans || [];
   if(plans.length){
-    h += `<div class="sec">Vorgemerkt</div>` + plans.map(p => `<div class="plan"><div><span class="ft">${esc(p.title)}</span> <span class="meta">· ${esc(dShort(p.date))} ${esc(p.time)} · ${esc(p.cinema)}${p.version?' · '+esc(p.version):''}</span></div><button class="btn ghost" data-unplan="${esc(p.id)}">Entfernen</button></div>`).join('');
+    h += `<div class="sec">Vorgemerkt</div>` + plans.map(p => `<div class="plan"><div><span class="ft info" data-info="${esc(p.title)}">${esc(p.title)}</span> <span class="meta">· ${esc(dShort(p.date))} ${esc(p.time)} · ${esc(p.cinema)}${p.version?' · '+esc(p.version):''}</span></div><button class="btn ghost" data-unplan="${esc(p.id)}">Entfernen</button></div>`).join('');
   }
   h += `<div class="filters"><button class="chip ${S.fOV?'on':''}" data-f="ov">Nur OmU / OV</button><button class="chip ${S.fEve?'on':''}" data-f="eve">Nur ab 18 Uhr</button></div>`;
   let list = upcoming().filter(x => filmFor(x.title));
@@ -160,7 +187,7 @@ function vWoche(){
     if(x.date !== cur){ cur = x.date; h += `<div class="day"><h2>${esc(dLabel(x.date))}</h2></div>`; }
     const planned = plans.some(p => planKey(p) === planKey(x));
     h += `<div class="show ${planned?'planned':''}"><div class="time">${esc(x.time)}</div>
-      <div><div class="ft">${esc(x.title)}${x.version?`<span class="ver ${isOU(x.version)?'ou':''}">${esc(x.version)}</span>`:''}</div><div class="meta">${esc(x.cinema)}</div></div>
+      <div><div class="ft"><span${infoT(x.title)}>${esc(x.title)}</span>${x.version?`<span class="ver ${isOU(x.version)?'ou':''}">${esc(x.version)}</span>`:''}</div><div class="meta">${esc(x.cinema)}</div></div>
       <div class="act">${planned?`<button class="btn" disabled>Vorgemerkt ✓</button>`:`<button class="btn pri" data-plan="${esc(planKey(x))}">Vormerken</button>`}</div></div>`;
   }
   return h;
@@ -173,7 +200,7 @@ function vWatch(){
   const card = f => {
     const shows = f.status === 'watch' ? up.filter(x => sameFilm(f.title, x.title)) : [];
     const st = f.status === 'seen' ? ['st-seen','Gesehen'] : shows.length ? ['st-run', `Läuft · ${shows.length} Termin${shows.length>1?'e':''}`] : ['st-off','Gerade nicht im Programm'];
-    return `<div class="card"><span class="status ${st[0]}">${st[1]}</span><h3>${esc(f.title)}</h3>${f.note?`<div class="why">${esc(f.note)}</div>`:''}
+    return `<div class="card"><span class="status ${st[0]}">${st[1]}</span><h3${infoT(f.title)}>${esc(f.title)}</h3>${f.note?`<div class="why">${esc(f.note)}</div>`:''}
       ${shows.slice(0,3).map(x => `<div class="next"><span class="t">${esc(dShort(x.date))} ${esc(x.time)}</span> ${esc(x.cinema)}${x.version?' · '+esc(x.version):''}</div>`).join('')}
       <div class="row">${f.status==='seen'?`<button class="btn ghost" data-st="${esc(f.id)}|watch">Doch nicht gesehen</button>`:`<button class="btn" data-st="${esc(f.id)}|seen">Gesehen</button>`}<button class="btn ghost" data-st="${esc(f.id)}|skip">Entfernen</button></div></div>`;
   };
@@ -190,13 +217,13 @@ function vProg(){
   if(S.q) films = films.filter(f => norm(f.title).includes(norm(S.q)) || f.shows.some(x => norm(x.cinema).includes(norm(S.q))));
   if(S.fOV) films = films.filter(f => f.shows.some(x => isOU(x.version)));
   let h = `<div class="filters"><input type="search" id="q" placeholder="Film oder Kino suchen" value="${esc(S.q)}" style="max-width:320px"><button class="chip ${S.fOV?'on':''}" data-f="ov">Nur OmU / OV</button></div>`;
-  h += `<div class="note">Alles, was in den nächsten Tagen in den Hamburger Programmkinos läuft${S.prog&&S.prog.window?' ('+esc(dShort(S.prog.window.from))+' – '+esc(dShort(S.prog.window.to))+')':''}. Mit „+ Watchlist“ merkst du dir einen Film.</div>`;
+  h += `<div class="note">Alles, was in den nächsten Tagen in den Hamburger Programmkinos läuft${S.prog&&S.prog.window?' ('+esc(dShort(S.prog.window.from))+' – '+esc(dShort(S.prog.window.to))+')':''}. Titel antippen für eine Kurzbeschreibung, mit „+ Watchlist“ merkst du dir einen Film.</div>`;
   if(!films.length) return h + `<div class="empty">${up.length?'Nichts gefunden.':'Das Programm wird gerade aktualisiert – schau später nochmal rein.'}</div>`;
   return h + films.map(f => {
     const on = !!filmFor(f.title);
     const cinemas = [...new Set(f.shows.map(x=>x.cinema))];
     const first = f.shows.slice(0,4).map(x => `<span>${esc(dShort(x.date))} ${esc(x.time)}</span> ${esc(x.cinema)}${x.version?' ('+esc(x.version)+')':''}`).join(' · ');
-    return `<div class="prog"><div class="toprow"><div><div class="ft">${esc(f.title)}</div><div class="meta">${esc(cinemas.join(', '))} · ${f.shows.length} Termin${f.shows.length>1?'e':''}</div></div>
+    return `<div class="prog"><div class="toprow"><div><div class="ft"><span${infoT(f.title)}>${esc(f.title)}</span></div><div class="meta">${esc(cinemas.join(', '))} · ${f.shows.length} Termin${f.shows.length>1?'e':''}</div></div>
       ${on?`<button class="btn" disabled>✓</button>`:`<button class="btn pri" data-take="${esc(f.title)}">+ Watchlist</button>`}</div><div class="times">${first}${f.shows.length>4?' …':''}</div></div>`;
   }).join('');
 }
@@ -206,7 +233,7 @@ function vTipps(){
   if(!it.length) return h + `<div class="empty">Diese Woche noch keine Tipps.</div>`;
   return h + `<div class="grid">` + it.map(s => {
     const on = !!filmFor(s.title);
-    return `<div class="card"><span class="status ${s.running?'st-run':'st-soon'}">${esc(s.where||'')}</span><h3>${esc(s.title)}</h3><div class="meta">${esc([s.director,s.year].filter(Boolean).join(' · '))}</div><div class="why">${esc(s.why||'')}</div>
+    return `<div class="card"><span class="status ${s.running?'st-run':'st-soon'}">${esc(s.where||'')}</span><h3${infoT(s.title)}>${esc(s.title)}</h3><div class="meta">${esc([s.director,s.year].filter(Boolean).join(' · '))}</div><div class="why">${esc(s.why||'')}</div>
       <div class="row">${on?`<button class="btn" disabled>Auf der Watchlist ✓</button>`:`<button class="btn pri" data-take="${esc(s.title)}">+ Watchlist</button>`}</div></div>`;
   }).join('') + `</div>`;
 }
@@ -222,6 +249,8 @@ function vProfil(){
 }
 
 function bind(){
+  document.querySelectorAll('[data-info]').forEach(el => el.onclick = e => { e.stopPropagation(); S.info = el.dataset.info; render(); });
+  const ov = $('#ov'); if(ov) ov.onclick = e => { if(e.target.id === 'ov' || e.target.id === 'ovx'){ S.info = null; render(); } };
   document.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { if(b.dataset.f==='ov') S.fOV=!S.fOV; else S.fEve=!S.fEve; render(); });
   document.querySelectorAll('[data-plan]').forEach(b => b.onclick = () => {
     const x = upcoming().find(y => planKey(y) === b.dataset.plan); if(!x) return; b.disabled = true;
@@ -243,6 +272,7 @@ function addFilm(title){
   if(ex){ if(ex.status !== 'watch') act('kz_set_status', {p_film:ex.id, p_status:'watch'}); else render(); return; }
   act('kz_add_film', {p_title:title, p_note:''});
 }
+document.addEventListener('keydown', e => { if(e.key === 'Escape' && S.info){ S.info = null; render(); } });
 $('#nav').onclick = e => { const b = e.target.closest('button'); if(!b) return; S.view = b.dataset.v; try{ localStorage.setItem('kz_view', S.view); }catch(_){} render(); };
 
 (async () => {
@@ -252,8 +282,10 @@ $('#nav').onclick = e => { const b = e.target.closest('button'); if(!b) return; 
   try{ const v = localStorage.getItem('kz_view'); if(v) S.view = v; }catch(_){}
   render();
   const progP = fetch('data/programm.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  const filmeP = fetch('data/filme.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
   if(S.token){ try{ await reload(); } catch(e){ S.err = 'Verbindung zur Datenbank fehlgeschlagen: ' + e.message; } }
   S.prog = await progP;
+  S.filme = await filmeP;
   S.loading = false;
   render();
 })();
