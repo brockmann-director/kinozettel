@@ -1,8 +1,0 @@
-name: Kinoprogramm aktualisieren
-on:
-  workflow_dispatch:
-jobs:
-  noop:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Platzhalter – wird noch ausgebaut"
