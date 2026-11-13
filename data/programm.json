@@ -1,1725 +1,87 @@
 {
- "updatedAt": "2026-11-05T07:00:00Z",
- "source": "kinoprogramm.com (Kinoseiten, abgerufen 05.11.2026; Stand der Seiten 01.–05.11.)",
+ "updatedAt": "2026-11-13T17:00:00Z",
+ "source": "kinoprogramm.com, wasgehtinhamburg.de",
  "window": {
-  "from": "2026-11-05",
-  "to": "2026-11-18"
+  "from": "2026-11-13",
+  "to": "2026-11-25"
  },
- "note": "Abaton, Zeise, 3001, Holi, Metropolis, Savoy, Passage, Kinopolis HafenCity, Astor, FilmRaum, Magazin. Studio, B-Movie, Schanzenkino, Elbe ohne aktuelle Daten. Kinopolis/Astor: nur Abend- und OV-Termine.",
+ "note": "Diese Woche unvollständig: Für 3001, Holi, Passage, Kinopolis u. a. fehlt das reguläre Programm in den Quellen.",
  "items": [
   {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "title": "Glaube",
    "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "10:00",
-   "version": "DF"
-  },
-  {
-   "title": "Die andere Seite",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
+   "date": "2026-11-13",
    "time": "12:30",
-   "version": "DF"
-  },
-  {
-   "title": "Moscas - Fliegen und andere Gäste",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "13:10",
    "version": "OmU"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Savoy",
-   "date": "2026-11-05",
-   "time": "14:00",
-   "version": "OV"
-  },
-  {
-   "title": "Biermann",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "14:30",
-   "version": "DF"
-  },
-  {
-   "title": "Glaube",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "14:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "15:30",
-   "version": "DF"
-  },
-  {
-   "title": "Moscas - Fliegen und andere Gäste",
-   "cinema": "3001",
-   "date": "2026-11-05",
-   "time": "16:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "17:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Der Haustyrann",
-   "cinema": "Metropolis",
-   "date": "2026-11-05",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Savoy",
-   "date": "2026-11-05",
-   "time": "17:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "17:10",
-   "version": "DF"
-  },
-  {
-   "title": "Block 10",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "17:30",
-   "version": "DF"
-  },
-  {
-   "title": "Chopin - Eine Sonate in Paris",
-   "cinema": "Passage",
-   "date": "2026-11-05",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "FilmRaum",
-   "date": "2026-11-05",
-   "time": "18:15",
-   "version": "OmU"
-  },
-  {
-   "title": "The Last Birds of Passage",
-   "cinema": "3001",
-   "date": "2026-11-05",
-   "time": "18:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Das Ding mit Federn",
-   "cinema": "Magazin",
-   "date": "2026-11-05",
-   "time": "18:30",
-   "version": ""
-  },
-  {
-   "title": "Die Mutter des Killers",
-   "cinema": "Metropolis",
-   "date": "2026-11-05",
-   "time": "19:00",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "19:20",
-   "version": "DF"
   },
   {
    "title": "Einar Schleef - Ich habe kein Deutschland gefunden",
    "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Holi",
-   "date": "2026-11-05",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Passage",
-   "date": "2026-11-05",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Biermann",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Astor Film Lounge HafenCity",
-   "date": "2026-11-05",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "Drei Kameradinnen",
-   "cinema": "FilmRaum",
-   "date": "2026-11-05",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "V wie Vendetta",
-   "cinema": "Savoy",
-   "date": "2026-11-05",
-   "time": "20:15",
-   "version": "OV"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Sinn und Sinnlichkeit",
-   "cinema": "Magazin",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": ""
-  },
-  {
-   "title": "Der perfekte Urlaub",
-   "cinema": "Passage",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-05",
-   "time": "20:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-05",
-   "time": "20:50",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-05",
-   "time": "21:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Himmlische Kreaturen",
-   "cinema": "Metropolis",
-   "date": "2026-11-05",
-   "time": "21:15",
-   "version": "DF"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "21:40",
-   "version": "OmU"
-  },
-  {
-   "title": "Coyote vs. ACME",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "22:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Abaton",
-   "date": "2026-11-05",
-   "time": "22:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Zeise",
-   "date": "2026-11-06",
-   "time": "14:45",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "15:30",
-   "version": "DF"
-  },
-  {
-   "title": "Einar Schleef - Ich habe kein Deutschland gefunden",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "15:30",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Savoy",
-   "date": "2026-11-06",
-   "time": "15:45",
-   "version": "OV"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "17:10",
-   "version": "DF"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "17:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "18:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Die andere Seite",
-   "cinema": "Passage",
-   "date": "2026-11-06",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Magazin",
-   "date": "2026-11-06",
-   "time": "18:30",
-   "version": ""
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Savoy",
-   "date": "2026-11-06",
-   "time": "19:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Zeise",
-   "date": "2026-11-06",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "Round Da Way",
-   "cinema": "Metropolis",
-   "date": "2026-11-06",
-   "time": "19:45",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Sinn und Sinnlichkeit",
-   "cinema": "Holi",
-   "date": "2026-11-06",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-06",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-06",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "FilmRaum",
-   "date": "2026-11-06",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-06",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-06",
-   "time": "20:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-06",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "The Social Reckoning",
-   "cinema": "Magazin",
-   "date": "2026-11-06",
-   "time": "21:00",
-   "version": ""
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-06",
-   "time": "21:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "21:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Savoy",
-   "date": "2026-11-06",
-   "time": "22:15",
-   "version": "OV"
-  },
-  {
-   "title": "Primetime",
-   "cinema": "Zeise",
-   "date": "2026-11-06",
-   "time": "22:15",
-   "version": "OmU"
-  },
-  {
-   "title": "The Killer",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "22:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-06",
-   "time": "22:30",
-   "version": "DF"
-  },
-  {
-   "title": "Primetime",
-   "cinema": "Abaton",
-   "date": "2026-11-06",
-   "time": "22:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Clayface",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-06",
-   "time": "23:00",
-   "version": "OV"
-  },
-  {
-   "title": "Coyote vs. ACME",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-07",
-   "time": "12:00",
-   "version": "OV"
-  },
-  {
-   "title": "Glaube",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "12:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "13:00",
-   "version": "DF"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Passage",
-   "date": "2026-11-07",
-   "time": "13:00",
-   "version": "DF"
-  },
-  {
-   "title": "Rocky",
-   "cinema": "Savoy",
-   "date": "2026-11-07",
-   "time": "13:00",
-   "version": "OV"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
+   "date": "2026-11-13",
    "time": "13:15",
-   "version": "OmU"
+   "version": "DF"
   },
   {
-   "title": "Biermann",
+   "title": "Eine letzte Runde",
    "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "15:15",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Savoy",
-   "date": "2026-11-07",
-   "time": "15:45",
+   "date": "2026-11-13",
+   "time": "14:50",
    "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "3001",
-   "date": "2026-11-07",
-   "time": "16:00",
-   "version": "DF"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "FilmRaum",
-   "date": "2026-11-07",
-   "time": "16:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "16:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Sinn und Sinnlichkeit",
-   "cinema": "Holi",
-   "date": "2026-11-07",
-   "time": "16:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "17:45",
-   "version": "DF"
-  },
-  {
-   "title": "The Social Reckoning",
-   "cinema": "Magazin",
-   "date": "2026-11-07",
-   "time": "18:00",
-   "version": ""
-  },
-  {
-   "title": "Persepolis",
-   "cinema": "Metropolis",
-   "date": "2026-11-07",
-   "time": "18:30",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Savoy",
-   "date": "2026-11-07",
-   "time": "19:00",
-   "version": "OV"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "19:10",
-   "version": "DF"
-  },
-  {
-   "title": "Eiserne Wildnis - Heart Of The Beast",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-07",
-   "time": "19:15",
-   "version": "OV"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Zeise",
-   "date": "2026-11-07",
-   "time": "19:15",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "19:20",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Astor Film Lounge HafenCity",
-   "date": "2026-11-07",
-   "time": "19:45",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Holi",
-   "date": "2026-11-07",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-07",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "FilmRaum",
-   "date": "2026-11-07",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Zeise",
-   "date": "2026-11-07",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-07",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Magazin",
-   "date": "2026-11-07",
-   "time": "20:30",
-   "version": ""
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-07",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Waking Life",
-   "cinema": "Metropolis",
-   "date": "2026-11-07",
-   "time": "20:45",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-07",
-   "time": "21:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "21:40",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "22:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-07",
-   "time": "22:15",
-   "version": "OV"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Savoy",
-   "date": "2026-11-07",
-   "time": "22:15",
-   "version": "OV"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-07",
-   "time": "22:15",
-   "version": "DF"
-  },
-  {
-   "title": "Pan's Labyrinth",
-   "cinema": "Abaton",
-   "date": "2026-11-07",
-   "time": "22:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Amadeus",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "11:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Chasing Trane: The John Coltrane Documentary",
-   "cinema": "Zeise",
-   "date": "2026-11-08",
-   "time": "11:00",
-   "version": "OmU"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "3001",
-   "date": "2026-11-08",
-   "time": "11:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Savoy",
-   "date": "2026-11-08",
-   "time": "12:30",
-   "version": "OV"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "13:00",
-   "version": "DF"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Passage",
-   "date": "2026-11-08",
-   "time": "13:00",
-   "version": "DF"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Zeise",
-   "date": "2026-11-08",
-   "time": "13:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Biermann",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "15:10",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Savoy",
-   "date": "2026-11-08",
-   "time": "15:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "16:10",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-08",
-   "time": "17:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Magazin",
-   "date": "2026-11-08",
-   "time": "17:30",
-   "version": ""
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "17:40",
-   "version": "OmU"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-08",
-   "time": "18:00",
-   "version": "OV"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "18:30",
-   "version": "DF"
-  },
-  {
-   "title": "Der Herr der Ringe - Die Gefährten (Extended)",
-   "cinema": "Savoy",
-   "date": "2026-11-08",
-   "time": "19:00",
-   "version": "OV"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-08",
-   "time": "19:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "19:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "3001",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Frau Winkler verlässt das Haus",
-   "cinema": "FilmRaum",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Holi",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Sinn und Sinnlichkeit",
-   "cinema": "Magazin",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": ""
-  },
-  {
-   "title": "Nosferatu - Eine Symphonie des Grauens",
-   "cinema": "Metropolis",
-   "date": "2026-11-08",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Verity - Dunkle Geheimnisse",
-   "cinema": "Astor Film Lounge HafenCity",
-   "date": "2026-11-08",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-08",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-08",
-   "time": "20:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-08",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Sternbrücke",
-   "cinema": "Zeise",
-   "date": "2026-11-08",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Clayface",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-08",
-   "time": "20:45",
-   "version": "OV"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "20:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Primetime",
-   "cinema": "Zeise",
-   "date": "2026-11-08",
-   "time": "21:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Pan's Labyrinth",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "22:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-08",
-   "time": "22:15",
-   "version": "OV"
-  },
-  {
-   "title": "Primetime",
-   "cinema": "Abaton",
-   "date": "2026-11-08",
-   "time": "22:20",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "10:10",
-   "version": "DF"
-  },
-  {
-   "title": "Moscas - Fliegen und andere Gäste",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "12:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Die andere Seite",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "13:45",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "14:40",
-   "version": "DF"
-  },
-  {
-   "title": "Biermann",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "15:00",
-   "version": "DF"
-  },
-  {
-   "title": "Was sehen wir, wenn wir zum Himmel schauen?",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "17:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "17:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "3001",
-   "date": "2026-11-09",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "The Neon Demon",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "18:00",
-   "version": "OmU"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Zeise",
-   "date": "2026-11-09",
-   "time": "18:00",
-   "version": "OmU"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "FilmRaum",
-   "date": "2026-11-09",
-   "time": "18:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "19:45",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Sinn und Sinnlichkeit",
-   "cinema": "Holi",
-   "date": "2026-11-09",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-09",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Her Private Hell",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "FilmRaum",
-   "date": "2026-11-09",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-09",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "The Social Reckoning",
-   "cinema": "Magazin",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "version": ""
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Passage",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "version": "OV"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-09",
-   "time": "20:40",
-   "version": "DF"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-09",
-   "time": "20:45",
-   "version": "OV"
-  },
-  {
-   "title": "Resident Evil",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-09",
-   "time": "21:15",
-   "version": "OV"
-  },
-  {
-   "title": "Himmlische Kreaturen",
-   "cinema": "Metropolis",
-   "date": "2026-11-09",
-   "time": "21:30",
-   "version": "DF"
-  },
-  {
-   "title": "Primetime",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "22:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "Abaton",
-   "date": "2026-11-09",
-   "time": "22:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "12:50",
-   "version": "DF"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "14:20",
-   "version": "OmU"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "16:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "3001",
-   "date": "2026-11-10",
-   "time": "16:30",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Breaking Away",
-   "cinema": "Metropolis",
-   "date": "2026-11-10",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "17:20",
-   "version": "OmU"
-  },
-  {
-   "title": "Staatsschutz",
-   "cinema": "FilmRaum",
-   "date": "2026-11-10",
-   "time": "17:45",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-10",
-   "time": "18:00",
-   "version": "OV"
-  },
-  {
-   "title": "Die andere Seite",
-   "cinema": "Passage",
-   "date": "2026-11-10",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-10",
-   "time": "18:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Eiserne Wildnis - Heart Of The Beast",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-10",
-   "time": "19:15",
-   "version": "OV"
   },
   {
    "title": "Identitti",
    "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "RBO Live: Carmen (Royal Opera)",
-   "cinema": "Astor Film Lounge HafenCity",
-   "date": "2026-11-10",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Holi",
-   "date": "2026-11-10",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Nosferatu - Eine Symphonie des Grauens",
-   "cinema": "Metropolis",
-   "date": "2026-11-10",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "La Bola negra",
-   "cinema": "Zeise",
-   "date": "2026-11-10",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "20:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "FilmRaum",
-   "date": "2026-11-10",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Adams Acht",
-   "cinema": "Magazin",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": ""
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Block 10",
-   "cinema": "Zeise",
-   "date": "2026-11-10",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-10",
-   "time": "20:40",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-10",
-   "time": "20:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Pan's Labyrinth",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "22:25",
-   "version": "OmU"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "22:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "Abaton",
-   "date": "2026-11-10",
-   "time": "22:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "10:30",
-   "version": "DF"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "13:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Biermann",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
+   "date": "2026-11-13",
    "time": "15:00",
    "version": "DF"
   },
   {
-   "title": "Glaube",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
+   "title": "Das geheime Stockwerk",
+   "cinema": "Zeise",
+   "date": "2026-11-13",
    "time": "15:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "3001",
-   "date": "2026-11-11",
-   "time": "16:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "17:10",
    "version": "DF"
   },
   {
-   "title": "Die Blutgräfin",
+   "title": "Bleib am Ball",
    "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "17:25",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "17:35",
-   "version": "OmU"
-  },
-  {
-   "title": "Schöne Seelen",
-   "cinema": "Zeise",
-   "date": "2026-11-11",
-   "time": "17:45",
+   "date": "2026-11-13",
+   "time": "15:15",
    "version": "DF"
   },
   {
    "title": "Wildwood",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-11",
-   "time": "18:00",
-   "version": "OV"
-  },
-  {
-   "title": "Adams Acht",
-   "cinema": "Passage",
-   "date": "2026-11-11",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "Hao Are You",
-   "cinema": "3001",
-   "date": "2026-11-11",
-   "time": "19:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Odyssee",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-11",
-   "time": "19:00",
-   "version": "OV"
-  },
-  {
-   "title": "Cinema Paradiso",
-   "cinema": "Metropolis",
-   "date": "2026-11-11",
-   "time": "19:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Sternbrücke FOREVER",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "19:50",
-   "version": "DF"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Holi",
-   "date": "2026-11-11",
-   "time": "20:00",
-   "version": "DF"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "FilmRaum",
-   "date": "2026-11-11",
-   "time": "20:15",
-   "version": "DF"
-  },
-  {
-   "title": "Die jüngste Tochter",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-11",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Street Fighter",
    "cinema": "Savoy",
-   "date": "2026-11-11",
-   "time": "20:15",
+   "date": "2026-11-13",
+   "time": "16:00",
    "version": "OV"
   },
   {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Zeise",
-   "date": "2026-11-11",
-   "time": "20:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Holi",
-   "date": "2026-11-11",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Lügen über meine Mutter",
-   "cinema": "Magazin",
-   "date": "2026-11-11",
-   "time": "20:30",
-   "version": ""
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Passage",
-   "date": "2026-11-11",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Zeise",
-   "date": "2026-11-11",
-   "time": "21:00",
-   "version": "DF"
-  },
-  {
-   "title": "Resident Evil",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-11",
-   "time": "21:15",
-   "version": "OV"
-  },
-  {
-   "title": "Die Blutgräfin",
-   "cinema": "3001",
-   "date": "2026-11-11",
-   "time": "22:00",
-   "version": "DF"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
+   "title": "Wild Horse Nine",
    "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "22:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "22:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity (Westfield)",
-   "date": "2026-11-11",
-   "time": "22:15",
-   "version": "OV"
-  },
-  {
-   "title": "The Killer",
-   "cinema": "Abaton",
-   "date": "2026-11-11",
-   "time": "22:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Paris, Texas",
-   "cinema": "Abaton",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "time": "17:00",
    "version": "OmU"
   },
   {
-   "title": "Wild Horse Nine",
-   "cinema": "Savoy",
-   "date": "2026-11-12",
-   "time": "17:45",
-   "version": "OV"
-  },
-  {
-   "title": "Revision",
-   "cinema": "Metropolis",
-   "date": "2026-11-12",
-   "time": "18:00",
-   "version": "DF"
-  },
-  {
-   "title": "Wild Horse Nine",
+   "title": "Minotaurus",
    "cinema": "Abaton",
-   "date": "2026-11-12",
-   "time": "19:45",
+   "date": "2026-11-13",
+   "time": "17:10",
    "version": "OmU"
   },
   {
-   "title": "George Michael - The Faith Tour",
-   "cinema": "Astor Film Lounge HafenCity",
-   "date": "2026-11-12",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "George Michael - The Faith Tour",
-   "cinema": "Passage",
-   "date": "2026-11-12",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Superbuhei",
-   "cinema": "Zeise",
-   "date": "2026-11-12",
-   "time": "20:00",
+   "title": "Vaterland",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "17:10",
    "version": "DF"
   },
   {
-   "title": "Die andere Seite",
-   "cinema": "FilmRaum",
-   "date": "2026-11-12",
-   "time": "20:15",
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "19:00",
    "version": "DF"
   },
   {
@@ -1737,6 +99,48 @@
    "version": "DF"
   },
   {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "19:35",
+   "version": "OmU"
+  },
+  {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "21:20",
+   "version": "OmU"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "Savoy",
+   "date": "2026-11-13",
+   "time": "22:00",
+   "version": "OV"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "22:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel - Director's Cut",
+   "cinema": "Abaton",
+   "date": "2026-11-13",
+   "time": "22:20",
+   "version": "OmU"
+  },
+  {
    "title": "Sneak Preview",
    "cinema": "Zeise",
    "date": "2026-11-13",
@@ -1744,10 +148,115 @@
    "version": "DF"
   },
   {
+   "title": "Leica - Ein Jahrhundert in Bildern",
+   "cinema": "Zeise",
+   "date": "2026-11-14",
+   "time": "12:30",
+   "version": "DF"
+  },
+  {
+   "title": "Barbara Buser - Pionierin der Nachhaltigkeit",
+   "cinema": "Zeise",
+   "date": "2026-11-14",
+   "time": "12:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "12:45",
+   "version": "DF"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "12:50",
+   "version": "DF"
+  },
+  {
+   "title": "Monster Mia",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "14:25",
+   "version": "DF"
+  },
+  {
+   "title": "NAZA",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "14:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "16:35",
+   "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "16:40",
+   "version": "OmU"
+  },
+  {
    "title": "Rosa Luxemburg",
    "cinema": "Metropolis",
    "date": "2026-11-14",
    "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "17:25",
+   "version": "DF"
+  },
+  {
+   "title": "George Michael - The Faith Tour",
+   "cinema": "Passage",
+   "date": "2026-11-14",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "18:50",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "19:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "19:40",
    "version": "DF"
   },
   {
@@ -1765,6 +274,34 @@
    "version": "DF"
   },
   {
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "21:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Digger",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "21:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Pan's Labyrinth",
+   "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "22:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Between Times",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "version": "OmU"
+  },
+  {
    "title": "Paris, Texas",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -1779,11 +316,193 @@
    "version": "OmU"
   },
   {
+   "title": "The Mad Dog of Europe",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "11:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "13:10",
+   "version": "DF"
+  },
+  {
+   "title": "Ein Mädchen namens Willow",
+   "cinema": "Zeise",
+   "date": "2026-11-15",
+   "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "NAZA",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Minions & Monster",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "15:15",
+   "version": "DF"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "17:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Der Herr der Ringe - Die zwei Türme",
+   "cinema": "Savoy",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "version": "OV"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "19:35",
+   "version": "OmU"
+  },
+  {
+   "title": "Asche und Diamant",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Teufel - Director's Cut",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "22:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "22:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Eine letzte Runde",
+   "cinema": "Abaton",
+   "date": "2026-11-15",
+   "time": "22:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "17:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "17:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "17:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
    "title": "Biermann",
    "cinema": "Zeise",
    "date": "2026-11-16",
    "time": "19:30",
    "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "version": "OmU"
   },
   {
    "title": "La Bola negra",
@@ -1793,11 +512,67 @@
    "version": "OmU"
   },
   {
-   "title": "NAZA",
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "21:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Pan's Labyrinth",
+   "cinema": "Abaton",
+   "date": "2026-11-16",
+   "time": "22:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Blutgräfin",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "14:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "17:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Naza – Vorstellung mit Gast",
    "cinema": "Abaton",
    "date": "2026-11-17",
    "time": "18:00",
    "version": "OmU"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "version": "DF"
   },
   {
    "title": "Uhrwerk Orange",
@@ -1807,61 +582,425 @@
    "version": "OmU"
   },
   {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "20:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Prestige - Die Meister der Magie",
+   "cinema": "Savoy",
+   "date": "2026-11-17",
+   "time": "20:15",
+   "version": "OV"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "20:40",
+   "version": "OmU"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "22:30",
+   "version": "DF"
+  },
+  {
+   "title": "Bruno - Der junge Kreisky",
+   "cinema": "Savoy",
+   "date": "2026-11-18",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "Watching People Watching Birds",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "12:45",
+   "version": "DF"
+  },
+  {
+   "title": "Sternbrücke FOREVER",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "12:50",
+   "version": "DF"
+  },
+  {
+   "title": "Die Blutgräfin",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "14:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Der Tod ist ein Arschloch",
+   "cinema": "Zeise",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ein Talent fürs Morden",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "17:20",
+   "version": "OmU"
+  },
+  {
+   "title": "Isla Santa María & Isla del Trueno",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "19:40",
+   "version": "OmU"
+  },
+  {
    "title": "La Bola negra",
    "cinema": "FilmRaum",
    "date": "2026-11-18",
    "time": "20:00",
    "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "21:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "21:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Eine letzte Runde",
+   "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "22:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Venus von Paris",
+   "cinema": "Zeise",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "version": "OmU"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Passage",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "version": "OmU"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Holi",
+   "date": "2026-11-19",
+   "time": "19:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Savoy",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Savoy",
+   "date": "2026-11-20",
+   "time": "15:00",
+   "version": "OV"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Savoy",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "version": "OV"
+  },
+  {
+   "title": "Comédie Française",
+   "cinema": "Zeise",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "version": "OmU"
+  },
+  {
+   "title": "De Gaulle - Zeit des Widerstands",
+   "cinema": "Zeise",
+   "date": "2026-11-21",
+   "time": "12:15",
+   "version": "OmU"
+  },
+  {
+   "title": "George Michael - The Faith Tour",
+   "cinema": "Savoy",
+   "date": "2026-11-21",
+   "time": "12:30",
+   "version": "OV"
+  },
+  {
+   "title": "Der Regenbogenfisch",
+   "cinema": "Zeise",
+   "date": "2026-11-21",
+   "time": "13:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Savoy",
+   "date": "2026-11-21",
+   "time": "18:15",
+   "version": "OV"
+  },
+  {
+   "title": "Asche und Diamant",
+   "cinema": "Abaton",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der Preis des Widerstands",
+   "cinema": "Abaton",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "In die Sonne schauen",
+   "cinema": "Abaton",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "Les Misérables",
+   "cinema": "Zeise",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "version": "OmU"
+  },
+  {
+   "title": "RBO Live 2026/27: Manon (Royal Ballet)",
+   "cinema": "Passage",
+   "date": "2026-11-22",
+   "time": "12:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Zeise",
+   "date": "2026-11-22",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Savoy",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "version": "OV"
+  },
+  {
+   "title": "Parallele Leben",
+   "cinema": "Abaton",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der Herr der Ringe - die Rückkehr des Königs (Extended Version)",
+   "cinema": "Savoy",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "version": "OV"
+  },
+  {
+   "title": "Bearcave",
+   "cinema": "Abaton",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Wholetrain",
+   "cinema": "Zeise",
+   "date": "2026-11-22",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Dry Leaf",
+   "cinema": "Abaton",
+   "date": "2026-11-23",
+   "time": "13:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Zeise",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Zeise",
+   "date": "2026-11-23",
+   "time": "19:45",
+   "version": "OmU"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Abaton",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "GIANT - The Play",
+   "cinema": "Savoy",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "version": "OV"
+  },
+  {
+   "title": "FROM INSIDE OUT - Die Architektur von Peter Zumthor",
+   "cinema": "Zeise",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "The King of Comedy",
+   "cinema": "Abaton",
+   "date": "2026-11-24",
+   "time": "17:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Yanuni",
+   "cinema": "Zeise",
+   "date": "2026-11-24",
+   "time": "19:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Eternity",
+   "cinema": "Abaton",
+   "date": "2026-11-25",
+   "time": "19:00",
+   "version": "OmU"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "Savoy",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "version": "OV"
+  },
+  {
+   "title": "Brunello: Der sanfte Visionär",
+   "cinema": "Passage",
+   "date": "2026-11-25",
+   "time": "20:30",
+   "version": "DF"
   }
  ],
  "tipps": [
   {
-   "title": "Minotaurus",
-   "director": "Andrey Zvyagintsev",
+   "title": "Wild Horse Nine",
+   "director": "Martin McDonagh",
    "year": 2026,
    "running": true,
-   "where": "Ab heute · 3001 & Abaton (OmU)",
-   "why": "Großer Preis der Jury in Cannes 2026 – kühles, präzises Drama."
+   "where": "Abaton (OmU), Savoy (OV)",
+   "why": "Neuer McDonagh, schwarze Komödie mit Malkovich und Rockwell. Fast täglich im Abaton."
   },
   {
    "title": "Her Private Hell",
    "director": "Nicolas Winding Refn",
    "year": 2026,
    "running": true,
-   "where": "Preview Mo 9.11. 20:15 · Abaton (OmU)",
-   "why": "Refns Kino-Comeback, Neon-Noir."
+   "where": "Abaton (OmU), spät abends",
+   "why": "Refns Neon-Albtraum, jetzt regulär im Programm."
   },
   {
-   "title": "Die Blutgräfin",
-   "director": "Ulrike Ottinger",
+   "title": "Minotaurus",
+   "director": "Andrey Zvyagintsev",
    "year": 2026,
    "running": true,
-   "where": "Abaton, FilmRaum (OmU), 3001",
-   "why": "Isabelle Huppert als Vampirgräfin, Dialoge von Elfriede Jelinek."
-  },
-  {
-   "title": "La Bola Negra",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "year": 2026,
-   "running": false,
-   "where": "Previews 10./16./18.11. · Start 19.11.",
-   "why": "Regiepreis Cannes 2026 – epischer Dreiteiler um ein Lorca-Fragment."
+   "where": "Abaton (OmU)",
+   "why": "Großer Preis der Jury in Cannes, kühles Russland-Drama."
   },
   {
    "title": "Uhrwerk Orange",
    "director": "Stanley Kubrick",
    "year": 1971,
    "running": true,
-   "where": "Di 17.11. 20:00 · Zeise (OmU)",
-   "why": "Kubricks Klassiker als Einzelvorstellung."
+   "where": "Di 17.11. 20:00 · Zeise",
+   "why": "Kubrick als Einzelvorstellung auf großer Leinwand."
   },
   {
-   "title": "Pan's Labyrinth",
-   "director": "Guillermo del Toro",
-   "year": 2006,
+   "title": "Asche und Diamant",
+   "director": "Andrzej Wajda",
+   "year": 1958,
    "running": true,
-   "where": "Sa 7.11. 22:30 u. a. · Abaton (OmU)",
-   "why": "Del Toros dunkles Märchen als Spätvorstellung."
+   "where": "Sa 14.11. / So 15.11. 20:00 · Abaton (OmU)",
+   "why": "Wajda-Klassiker in der 100er-Klassiker-Reihe."
+  },
+  {
+   "title": "The King of Comedy",
+   "director": "Martin Scorsese",
+   "year": 1982,
+   "running": true,
+   "where": "Di 24.11. 17:00 / So 29.11. 11:00 · Abaton (OmU)",
+   "why": "Scorsese und De Niro, bitterböse Satire über Ruhm."
   }
  ]
 }
