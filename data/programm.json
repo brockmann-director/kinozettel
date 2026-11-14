@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-13T17:00:00Z",
+ "updatedAt": "2026-11-14T12:00:00Z",
  "source": "kinoprogramm.com, wasgehtinhamburg.de",
  "window": {
   "from": "2026-11-13",
   "to": "2026-11-25"
  },
- "note": "Diese Woche unvollständig: Für 3001, Holi, Passage, Kinopolis u. a. fehlt das reguläre Programm in den Quellen.",
+ "note": "Diese Woche unvollständig: Für 3001, Holi, Passage, Kinopolis u. a. fehlt das reguläre Programm in den Quellen. Kinopolis bisher nur Sa 14.11. (Auswahl).",
  "items": [
   {
    "title": "Glaube",
@@ -148,6 +148,13 @@
    "version": "DF"
   },
   {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "10:40",
+   "version": "OV"
+  },
+  {
    "title": "Leica - Ein Jahrhundert in Bildern",
    "cinema": "Zeise",
    "date": "2026-11-14",
@@ -204,6 +211,13 @@
    "version": "DF"
   },
   {
+   "title": "Street Fighter",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
    "title": "Ein Talent fürs Morden",
    "cinema": "Abaton",
    "date": "2026-11-14",
@@ -218,11 +232,32 @@
    "version": "OmU"
   },
   {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
    "title": "Rosa Luxemburg",
    "cinema": "Metropolis",
    "date": "2026-11-14",
    "time": "17:00",
    "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "17:15",
+   "version": "OV"
   },
   {
    "title": "Geister",
@@ -239,8 +274,22 @@
    "version": "OmU"
   },
   {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "18:40",
+   "version": "DF"
+  },
+  {
    "title": "Geister",
    "cinema": "Abaton",
+   "date": "2026-11-14",
+   "time": "18:50",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Kinopolis HafenCity",
    "date": "2026-11-14",
    "time": "18:50",
    "version": "DF"
@@ -274,11 +323,32 @@
    "version": "DF"
   },
   {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
    "title": "Her Private Hell",
    "cinema": "Abaton",
    "date": "2026-11-14",
    "time": "21:10",
    "version": "OmU"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "21:15",
+   "version": "OV"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "21:45",
+   "version": "DF"
   },
   {
    "title": "Digger",
@@ -293,6 +363,13 @@
    "date": "2026-11-14",
    "time": "22:30",
    "version": "OmU"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-14",
+   "time": "22:45",
+   "version": "DF"
   },
   {
    "title": "Between Times",
@@ -960,7 +1037,8 @@
    "year": 2026,
    "running": true,
    "where": "Abaton (OmU), Savoy (OV)",
-   "why": "Neuer McDonagh, schwarze Komödie mit Malkovich und Rockwell. Fast täglich im Abaton."
+   "why": "Neuer McDonagh, schwarze Komödie mit Malkovich und Rockwell. Fast täglich im Abaton.",
+   "lane": "fit"
   },
   {
    "title": "Her Private Hell",
@@ -968,7 +1046,8 @@
    "year": 2026,
    "running": true,
    "where": "Abaton (OmU), spät abends",
-   "why": "Refns Neon-Albtraum, jetzt regulär im Programm."
+   "why": "Refns Neon-Albtraum, jetzt regulär im Programm.",
+   "lane": "fit"
   },
   {
    "title": "Minotaurus",
@@ -976,7 +1055,8 @@
    "year": 2026,
    "running": true,
    "where": "Abaton (OmU)",
-   "why": "Großer Preis der Jury in Cannes, kühles Russland-Drama."
+   "why": "Großer Preis der Jury in Cannes, kühles Russland-Drama.",
+   "lane": "fit"
   },
   {
    "title": "Uhrwerk Orange",
@@ -984,7 +1064,8 @@
    "year": 1971,
    "running": true,
    "where": "Di 17.11. 20:00 · Zeise",
-   "why": "Kubrick als Einzelvorstellung auf großer Leinwand."
+   "why": "Kubrick als Einzelvorstellung auf großer Leinwand.",
+   "lane": "fit"
   },
   {
    "title": "Asche und Diamant",
@@ -992,7 +1073,8 @@
    "year": 1958,
    "running": true,
    "where": "Sa 14.11. / So 15.11. 20:00 · Abaton (OmU)",
-   "why": "Wajda-Klassiker in der 100er-Klassiker-Reihe."
+   "why": "Wajda-Klassiker in der 100er-Klassiker-Reihe.",
+   "lane": "fit"
   },
   {
    "title": "The King of Comedy",
@@ -1000,7 +1082,125 @@
    "year": 1982,
    "running": true,
    "where": "Di 24.11. 17:00 / So 29.11. 11:00 · Abaton (OmU)",
-   "why": "Scorsese und De Niro, bitterböse Satire über Ruhm."
+   "why": "Scorsese und De Niro, bitterböse Satire über Ruhm.",
+   "lane": "fit"
+  },
+  {
+   "lane": "fit",
+   "running": true,
+   "title": "FROM INSIDE OUT - Die Architektur von Peter Zumthor",
+   "where": "Mo 23.11. 20:00 · Zeise",
+   "why": "Architektur-Doku über Peter Zumthor."
+  },
+  {
+   "lane": "fit",
+   "running": true,
+   "title": "Leica - Ein Jahrhundert in Bildern",
+   "where": "Sa 14.11. 12:30 · Zeise",
+   "why": "Fotografie-Doku zum 100. der Leica – nur als Mittagsvorstellung."
+  },
+  {
+   "lane": "big",
+   "title": "Street Fighter",
+   "director": "Kitao Sakurai",
+   "year": 2026,
+   "running": true,
+   "where": "Sa 14.11. 16:00 · Kinopolis",
+   "why": "Die große Videospiel-Verfilmung – reines Popcorn-Genre im Multiplex."
+  },
+  {
+   "lane": "big",
+   "title": "Godzilla Minus Zero",
+   "director": "Takashi Yamazaki",
+   "year": 2026,
+   "running": true,
+   "where": "Sa 14.11. 17:00 / 21:45 · Kinopolis",
+   "why": "Nachfolger von Godzilla Minus One – japanisches Monsterkino auf großer Leinwand."
+  },
+  {
+   "lane": "big",
+   "title": "Wildwood",
+   "director": "Travis Knight",
+   "year": 2026,
+   "running": true,
+   "where": "Sa 14.11. 17:15 (OV) · Kinopolis",
+   "why": "Neuer Laika-Stop-Motion-Film, auch in OV."
+  },
+  {
+   "lane": "big",
+   "title": "Other Mommy",
+   "director": "Rob Savage",
+   "year": 2026,
+   "running": true,
+   "where": "Sa 14.11. 21:15 (OV) · Kinopolis",
+   "why": "Mainstream-Horror vom Host-Regisseur, spät abends in OV."
+  },
+  {
+   "lane": "big",
+   "title": "Prestige - Die Meister der Magie",
+   "director": "Christopher Nolan",
+   "year": 2006,
+   "running": true,
+   "where": "Di 17.11. 20:15 · Savoy",
+   "why": "Re-Release im Savoy – Nolans Zauberer-Duell auf der großen Leinwand."
+  },
+  {
+   "lane": "big",
+   "title": "Matrix",
+   "director": "Lana und Lilly Wachowski",
+   "year": 1999,
+   "running": true,
+   "where": "Do 26.11. 19:30 · Passage",
+   "why": "Kultfilm als Sondervorstellung."
+  },
+  {
+   "lane": "soon",
+   "title": "La Bola Negra",
+   "director": "Javier Calvo, Javier Ambrossi",
+   "year": 2026,
+   "deStart": "2026-11-19",
+   "why": "Neuer Film von Los Javis (Veneno): drei Männer in drei Zeiten, verbunden über ein Lorca-Manuskript. 155 Minuten."
+  },
+  {
+   "lane": "soon",
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "director": "Francis Lawrence",
+   "year": 2026,
+   "deStart": "2026-11-19",
+   "why": "Der große Blockbuster-Start der Woche."
+  },
+  {
+   "lane": "soon",
+   "title": "The Further Mis-Adventures of Cliff Booth",
+   "director": "David Fincher",
+   "year": 2026,
+   "deStart": "2026-11-26",
+   "where": "nur IMAX, 2 Wochen",
+   "why": "Fincher verfilmt Tarantino, Brad Pitt als Cliff Booth. Nur zwei Wochen exklusiv im IMAX, ab 23.12. auf Netflix."
+  },
+  {
+   "lane": "soon",
+   "title": "I Am Martin Parr",
+   "director": "Lee Shulman",
+   "year": 2024,
+   "deStart": "2026-11-26",
+   "why": "Foto-Doku: Roadtrip mit Martin Parr bis New Brighton, wo er „The Last Resort“ neu fotografiert. 66 Minuten."
+  },
+  {
+   "lane": "soon",
+   "title": "Dune: Teil 3",
+   "director": "Denis Villeneuve",
+   "year": 2026,
+   "deStart": "2026-12-17",
+   "why": "Abschluss von Villeneuves Dune-Trilogie."
+  },
+  {
+   "lane": "soon",
+   "title": "Werwulf",
+   "director": "Robert Eggers",
+   "year": 2026,
+   "deStart": "2026-12-31",
+   "why": "Neuer Horror von Robert Eggers (The Witch, Nosferatu)."
   }
  ]
 }

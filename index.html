@@ -80,6 +80,7 @@ label.f{display:block;font-size:12px;color:var(--muted);margin:14px 0 6px;text-t
 a.btn{color:var(--ink);text-decoration:none;display:inline-block}
 .toprow{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 @media (max-width:520px){.show{grid-template-columns:52px 1fr}.show .act{grid-column:1/-1}.time{font-size:16px}h1{font-size:26px}}
+.lane{font-size:1.05rem;margin:22px 0 2px}.lanesub{margin-bottom:10px}
 </style>
 </head>
 <body>
@@ -266,15 +267,23 @@ function vProg(){
       ${on?`<button class="btn" disabled>✓</button>`:`<button class="btn pri" data-take="${esc(f.title)}">+ Watchlist</button>`}</div><div class="times">${first}${f.shows.length>4?' …':''}</div></div>`;
   }).join('');
 }
+const LANES=[['fit','Passt zu dir','Empfehlungen aus den Programmkinos – läuft jetzt in deinen Kinos.'],['big','Läuft gerade groß','Blockbuster, Genre- und Kultfilme, Re-Releases – das, worüber gerade geredet wird.'],['soon','Demnächst im Kino','Startet in den nächsten Wochen – schon mal vormerken.']];
+function deDate(s){ const m=String(s||'').match(/^(\d{4})-(\d\d)-(\d\d)/); return m? (+m[3])+'.'+(+m[2])+'.' : String(s||''); }
 function vTipps(){
   const it = S.prog && Array.isArray(S.prog.tipps) ? S.prog.tipps : [];
-  let h = `<div class="note">Neustarts und Empfehlungen aus den Hamburger Programmkinos – jede Woche neu.</div>`;
+  let h = `<div class="note">Tipps in drei Rubriken – jede Woche neu.</div>`;
   if(!it.length) return h + `<div class="empty">Diese Woche noch keine Tipps.</div>`;
-  return h + `<div class="grid">` + it.map(s => {
-    const on = !!filmFor(s.title);
-    return `<div class="card"><span class="status ${s.running?'st-run':'st-soon'}">${esc(s.where||'')}</span><h3${infoT(s.title)}>${esc(s.title)}</h3><div class="meta">${esc([s.director,s.year].filter(Boolean).join(' · '))}</div><div class="why">${esc(s.why||'')}</div>
-      <div class="row">${on?`<button class="btn" disabled>Auf der Watchlist ✓</button>`:`<button class="btn pri" data-take="${esc(s.title)}">+ Watchlist</button>`}</div></div>`;
-  }).join('') + `</div>`;
+  for(const [lane,head,sub] of LANES){
+    const L = it.filter(s => (s.lane||'fit')===lane);
+    if(!L.length) continue;
+    h += `<h2 class="lane">${esc(head)}</h2><div class="meta lanesub">${esc(sub)}</div><div class="grid">` + L.map(s => {
+      const on = !!filmFor(s.title);
+      const badge = lane==='soon' && s.deStart ? 'ab '+deDate(s.deStart)+(s.where?' · '+s.where:'') : (s.where||'');
+      return `<div class="card"><span class="status ${s.running?'st-run':'st-soon'}">${esc(badge)}</span><h3${infoT(s.title)}>${esc(s.title)}</h3><div class="meta">${esc([s.director,s.year].filter(Boolean).join(' · '))}</div><div class="why">${esc(s.why||'')}</div>
+      <div class="row">${on?`<button class="btn" disabled>Auf der Watchlist ✓</button>`:`<button class="btn pri" data-take="${esc(s.title)}">${lane==='soon'?'Vormerken':'+ Watchlist'}</button>`}</div></div>`;
+    }).join('') + `</div>`;
+  }
+  return h;
 }
 function vProfil(){
   const p = S.me.profile || {};
