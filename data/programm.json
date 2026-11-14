@@ -1,374 +1,38 @@
 {
- "updatedAt": "2026-11-14T12:00:00Z",
- "source": "kinoprogramm.com, wasgehtinhamburg.de",
+ "updatedAt": "2026-11-14T22:45:00Z",
+ "source": "Kinoseiten direkt (Savoy, Kinopolis, CinemaxX/Holi, Passage), cineville.de (3001, Studio, Metropolis, B-Movie, FilmRaum), Abaton/Zeise vom 13.11.",
  "window": {
-  "from": "2026-11-13",
+  "from": "2026-11-15",
   "to": "2026-11-25"
  },
- "note": "Diese Woche unvollständig: Für 3001, Holi, Passage, Kinopolis u. a. fehlt das reguläre Programm in den Quellen. Kinopolis bisher nur Sa 14.11. (Auswahl).",
+ "note": "UCI, Astor und Elbe fehlen noch. Bei 3001, Studio, Metropolis, B-Movie und FilmRaum gibt die Quelle keine Fassung an (meist OmU). Kinopolis/Passage/CinemaxX veröffentlichen nur bis Mi 18.11., Rest folgt am Montag.",
  "items": [
   {
-   "title": "Glaube",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "12:30",
-   "version": "OmU"
+   "title": "Moscas – Fliegen und andere Gäste",
+   "cinema": "3001",
+   "date": "2026-11-15",
+   "time": "10:00",
+   "version": ""
   },
   {
-   "title": "Einar Schleef - Ich habe kein Deutschland gefunden",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "13:15",
-   "version": "DF"
-  },
-  {
-   "title": "Eine letzte Runde",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "14:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Identitti",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "15:00",
-   "version": "DF"
-  },
-  {
-   "title": "Das geheime Stockwerk",
-   "cinema": "Zeise",
-   "date": "2026-11-13",
-   "time": "15:00",
-   "version": "DF"
-  },
-  {
-   "title": "Bleib am Ball",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "15:15",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Savoy",
-   "date": "2026-11-13",
-   "time": "16:00",
+   "title": "Der Herr der Ringe - die Rückkehr des Königs (Extended Version)",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "10:15",
    "version": "OV"
   },
   {
-   "title": "Wild Horse Nine",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "17:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "17:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Vaterland",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "17:10",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "19:00",
-   "version": "DF"
-  },
-  {
-   "title": "Wild Horse Nine",
-   "cinema": "Savoy",
-   "date": "2026-11-13",
-   "time": "19:00",
-   "version": "OV"
-  },
-  {
-   "title": "Nur eine Frau",
-   "cinema": "Metropolis",
-   "date": "2026-11-13",
-   "time": "19:30",
-   "version": "DF"
-  },
-  {
-   "title": "Wild Horse Nine",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "19:35",
-   "version": "OmU"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Her Private Hell",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "21:20",
-   "version": "OmU"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Savoy",
-   "date": "2026-11-13",
-   "time": "22:00",
-   "version": "OV"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "22:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Die Teufel - Director's Cut",
-   "cinema": "Abaton",
-   "date": "2026-11-13",
-   "time": "22:20",
-   "version": "OmU"
-  },
-  {
-   "title": "Sneak Preview",
-   "cinema": "Zeise",
-   "date": "2026-11-13",
-   "time": "22:30",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
    "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "10:40",
-   "version": "OV"
-  },
-  {
-   "title": "Leica - Ein Jahrhundert in Bildern",
-   "cinema": "Zeise",
-   "date": "2026-11-14",
-   "time": "12:30",
+   "date": "2026-11-15",
+   "time": "10:20",
    "version": "DF"
   },
   {
-   "title": "Barbara Buser - Pionierin der Nachhaltigkeit",
-   "cinema": "Zeise",
-   "date": "2026-11-14",
-   "time": "12:30",
-   "version": "DF"
-  },
-  {
-   "title": "Der frechste Troll der Welt",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "12:45",
-   "version": "DF"
-  },
-  {
-   "title": "Identitti",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "12:50",
-   "version": "DF"
-  },
-  {
-   "title": "Monster Mia",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "13:00",
-   "version": "DF"
-  },
-  {
-   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "14:25",
-   "version": "DF"
-  },
-  {
-   "title": "NAZA",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "14:45",
-   "version": "OmU"
-  },
-  {
-   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "15:00",
-   "version": "DF"
-  },
-  {
-   "title": "Street Fighter",
+   "title": "Paw Patrol: der Dino Film",
    "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "16:00",
-   "version": "DF"
-  },
-  {
-   "title": "Ein Talent fürs Morden",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "16:35",
-   "version": "OmU"
-  },
-  {
-   "title": "Wild Horse Nine",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "16:40",
-   "version": "OmU"
-  },
-  {
-   "title": "Spider-Man: Brand New Day",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "16:50",
-   "version": "DF"
-  },
-  {
-   "title": "Rosa Luxemburg",
-   "cinema": "Metropolis",
-   "date": "2026-11-14",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "17:00",
-   "version": "DF"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "17:15",
-   "version": "OV"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "17:25",
-   "version": "DF"
-  },
-  {
-   "title": "George Michael - The Faith Tour",
-   "cinema": "Passage",
-   "date": "2026-11-14",
-   "time": "17:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Wildwood",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "18:40",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "18:50",
-   "version": "DF"
-  },
-  {
-   "title": "Geister",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "18:50",
-   "version": "DF"
-  },
-  {
-   "title": "Wild Horse Nine",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "19:15",
-   "version": "OmU"
-  },
-  {
-   "title": "Minotaurus",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "19:40",
-   "version": "DF"
-  },
-  {
-   "title": "Asche und Diamant",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "20:00",
-   "version": "OmU"
-  },
-  {
-   "title": "Mahler",
-   "cinema": "Metropolis",
-   "date": "2026-11-14",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "20:30",
-   "version": "DF"
-  },
-  {
-   "title": "Her Private Hell",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "21:10",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "21:15",
-   "version": "OV"
-  },
-  {
-   "title": "Godzilla Minus Zero",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "21:45",
-   "version": "DF"
-  },
-  {
-   "title": "Digger",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "21:50",
-   "version": "OmU"
-  },
-  {
-   "title": "Pan's Labyrinth",
-   "cinema": "Abaton",
-   "date": "2026-11-14",
-   "time": "22:30",
-   "version": "OmU"
-  },
-  {
-   "title": "Other Mommy",
-   "cinema": "Kinopolis HafenCity",
-   "date": "2026-11-14",
-   "time": "22:45",
+   "date": "2026-11-15",
+   "time": "10:30",
    "version": "DF"
   },
   {
@@ -376,7 +40,21 @@
    "cinema": "Kinopolis HafenCity",
    "date": "2026-11-15",
    "time": "10:40",
-   "version": ""
+   "version": "OV"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "10:40",
+   "version": "DF"
+  },
+  {
+   "title": "Minions & Monster",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "10:50",
+   "version": "DF"
   },
   {
    "title": "Between Times",
@@ -393,6 +71,34 @@
    "version": "OmU"
   },
   {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ramayana: Rise of a Legend",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Odyssee",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "version": "OV"
+  },
+  {
+   "title": "Coyote vs. ACME",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
    "title": "Chasing Trane: The John Coltrane Documentary",
    "cinema": "Zeise",
    "date": "2026-11-15",
@@ -407,6 +113,167 @@
    "version": "OmU"
   },
   {
+   "title": "Tabaluga - Der Film",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "11:10",
+   "version": "DF"
+  },
+  {
+   "title": "Tabaluga - Der Film",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "11:15",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "11:20",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Minions & Monster",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der Regenbogenfisch",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "11:45",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "11:45",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "11:50",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "3001",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "version": ""
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Holi",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "version": "DF"
+  },
+  {
+   "title": "Rhino",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "version": ""
+  },
+  {
+   "title": "Tabaluga - Der Film",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "12:10",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "12:15",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "12:15",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "12:15",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "12:20",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "12:45",
+   "version": "DF"
+  },
+  {
+   "title": "Der Regenbogenfisch",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "12:45",
+   "version": "DF"
+  },
+  {
+   "title": "Lügen über meine Mutter",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "12:45",
+   "version": "DF"
+  },
+  {
    "title": "Geister",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -414,10 +281,73 @@
    "version": "DF"
   },
   {
+   "title": "Eiserne Wildnis - Heart of the Beast",
+   "cinema": "Holi",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Adams Acht",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "version": ""
+  },
+  {
    "title": "Vaterland",
    "cinema": "Abaton",
    "date": "2026-11-15",
    "time": "13:10",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "13:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die andere Seite",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "13:15",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Savoy",
+   "date": "2026-11-15",
+   "time": "13:15",
+   "version": "OV"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "13:20",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "13:30",
    "version": "DF"
   },
   {
@@ -428,6 +358,20 @@
    "version": "DF"
   },
   {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "13:40",
+   "version": "DF"
+  },
+  {
+   "title": "Monster Mia",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
    "title": "Der frechste Troll der Welt",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -435,11 +379,207 @@
    "version": "DF"
   },
   {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Eine Nacht auf Karlstein",
+   "cinema": "Metropolis",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "version": ""
+  },
+  {
+   "title": "Der Regenbogenfisch",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "FilmRaum",
+   "date": "2026-11-15",
+   "time": "14:15",
+   "version": ""
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "14:20",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Forgotten Island",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Laundry",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "14:30",
+   "version": ""
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "14:50",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "3001",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": ""
+  },
+  {
    "title": "NAZA",
    "cinema": "Abaton",
    "date": "2026-11-15",
    "time": "15:00",
    "version": "OmU"
+  },
+  {
+   "title": "Dzien dziecka ksiedza Jana Kaczkowskiego",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Dzien dziecka ksiedza Jana Kaczkowskiego",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Lieblingsmenschen",
+   "cinema": "Holi",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "George Michael - The Faith Tour",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "15:10",
+   "version": "DF"
   },
   {
    "title": "Minions & Monster",
@@ -456,11 +596,165 @@
    "version": "DF"
   },
   {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Chopin - Eine Sonate in Paris",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "15:50",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Street Fighter",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
    "title": "Wildwood",
    "cinema": "Savoy",
    "date": "2026-11-15",
    "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "16:00",
    "version": ""
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "NAZA",
+   "cinema": "FilmRaum",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Napoleon auf St. Helena",
+   "cinema": "Metropolis",
+   "date": "2026-11-15",
+   "time": "16:30",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "16:40",
+   "version": "DF"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "3001",
+   "date": "2026-11-15",
+   "time": "16:45",
+   "version": ""
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "16:50",
+   "version": "DF"
   },
   {
    "title": "Wild Horse Nine",
@@ -470,17 +764,108 @@
    "version": "OmU"
   },
   {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Eiserne Wildnis - Heart of the Beast",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Hadoota",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "17:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "17:10",
+   "version": "DF"
+  },
+  {
+   "title": "Dzien dziecka ksiedza Jana Kaczkowskiego",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "17:15",
+   "version": "OmU"
+  },
+  {
    "title": "Wildwood",
    "cinema": "Kinopolis HafenCity",
    "date": "2026-11-15",
    "time": "17:15",
-   "version": ""
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "17:20",
+   "version": "DF"
   },
   {
    "title": "Geister",
    "cinema": "Abaton",
    "date": "2026-11-15",
    "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "The Eyes of Ghana",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "17:40",
    "version": "DF"
   },
   {
@@ -491,11 +876,88 @@
    "version": "OmU"
   },
   {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-15",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "National Anthem",
+   "cinema": "B-Movie",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Drei Kameradinnen",
+   "cinema": "FilmRaum",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "version": "OV"
+  },
+  {
+   "title": "Biermann",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Alte Liebe",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "18:30",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "18:40",
+   "version": "DF"
+  },
+  {
    "title": "Wildwood",
    "cinema": "Kinopolis HafenCity",
    "date": "2026-11-15",
    "time": "18:40",
-   "version": ""
+   "version": "OV"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Odyssee",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "version": "DF"
   },
   {
    "title": "Der Herr der Ringe - Die zwei Türme",
@@ -505,11 +967,109 @@
    "version": "OV"
   },
   {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "19:10",
+   "version": "DF"
+  },
+  {
+   "title": "Hadoota",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "19:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "3001",
+   "date": "2026-11-15",
+   "time": "19:30",
+   "version": ""
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Hadoota",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "19:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
    "title": "Wild Horse Nine",
    "cinema": "Abaton",
    "date": "2026-11-15",
    "time": "19:35",
    "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Hadoota",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "19:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Scene",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "19:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "19:50",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "19:50",
+   "version": "DF"
   },
   {
    "title": "Asche und Diamant",
@@ -526,6 +1086,167 @@
    "version": "OmU"
   },
   {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "OV"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die andere Seite",
+   "cinema": "FilmRaum",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "Lola Montez (1955)",
+   "cinema": "Metropolis",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "The Legend of the Vagabond Queen of Lagos",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "20:10",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "20:10",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Passage",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Ramayana: Rise of a Legend",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "21:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Studio",
+   "date": "2026-11-15",
+   "time": "21:00",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "21:45",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "22:00",
+   "version": "DF"
+  },
+  {
    "title": "Die Teufel - Director's Cut",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -540,6 +1261,41 @@
    "version": "OmU"
   },
   {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "22:15",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "22:20",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "22:30",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "22:35",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
    "title": "Eine letzte Runde",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -547,10 +1303,255 @@
    "version": "OmU"
   },
   {
+   "title": "Beware Boiúna",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "22:50",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Beware Boiúna",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-15",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Resident Evil",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "13:00",
+   "version": "OV"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "13:15",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "13:20",
+   "version": "DF"
+  },
+  {
    "title": "Heimsuchung - Eine Jahrhundertgeschichte",
    "cinema": "Abaton",
    "date": "2026-11-16",
    "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "13:40",
+   "version": "DF"
+  },
+  {
+   "title": "Monster Mia",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:10",
+   "version": "DF"
+  },
+  {
+   "title": "Minions & Monster",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:10",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Sinn und Sinnlichkeit",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:20",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Forgotten Island",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Savoy",
+   "date": "2026-11-16",
+   "time": "14:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:40",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "14:40",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "14:45",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "14:50",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "14:55",
    "version": "DF"
   },
   {
@@ -568,11 +1569,207 @@
    "version": "DF"
   },
   {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "15:00",
+   "version": "OV"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Chopin - Eine Sonate in Paris",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Frau Winkler verlässt das Haus",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Street Fighter",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "16:10",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Moscas – Fliegen und andere Gäste",
+   "cinema": "3001",
+   "date": "2026-11-16",
+   "time": "16:30",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
+   "cinema": "Studio",
+   "date": "2026-11-16",
+   "time": "16:30",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "16:40",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "16:40",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ludwig II. (1954)",
+   "cinema": "Metropolis",
+   "date": "2026-11-16",
+   "time": "17:00",
+   "version": ""
+  },
+  {
    "title": "Minotaurus",
    "cinema": "Abaton",
    "date": "2026-11-16",
    "time": "17:10",
    "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "17:10",
+   "version": "DF"
   },
   {
    "title": "Ein Talent fürs Morden",
@@ -582,11 +1779,179 @@
    "version": "OmU"
   },
   {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "17:15",
+   "version": "OV"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Studio",
+   "date": "2026-11-16",
+   "time": "17:15",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Savoy",
+   "date": "2026-11-16",
+   "time": "17:30",
+   "version": "OV"
+  },
+  {
    "title": "Wild Horse Nine",
    "cinema": "Abaton",
    "date": "2026-11-16",
    "time": "17:45",
    "version": "OmU"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Sternbrücke FOREVER",
+   "cinema": "FilmRaum",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "version": "OV"
+  },
+  {
+   "title": "Alte Liebe",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Minotaurus",
+   "cinema": "3001",
+   "date": "2026-11-16",
+   "time": "18:30",
+   "version": ""
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "18:40",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "18:45",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Studio",
+   "date": "2026-11-16",
+   "time": "18:45",
+   "version": ""
+  },
+  {
+   "title": "Geister",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "18:50",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Eiserne Wildnis - Heart of the Beast",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Odyssee",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "19:15",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "19:20",
+   "version": "DF"
   },
   {
    "title": "Geister",
@@ -596,10 +1961,87 @@
    "version": "DF"
   },
   {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Thomas Müntzer – Ein Film deutscher Geschichte",
+   "cinema": "Metropolis",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "version": ""
+  },
+  {
    "title": "Biermann",
    "cinema": "Zeise",
    "date": "2026-11-16",
    "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "Studio",
+   "date": "2026-11-16",
+   "time": "19:45",
+   "version": ""
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "19:55",
    "version": "DF"
   },
   {
@@ -610,11 +2052,172 @@
    "version": "OmU"
   },
   {
-   "title": "La Bola negra",
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
    "cinema": "Abaton",
    "date": "2026-11-16",
    "time": "20:15",
    "version": "OmU"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die andere Seite",
+   "cinema": "FilmRaum",
+   "date": "2026-11-16",
+   "time": "20:15",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "Passage",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "OV"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Savoy",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "version": "OV"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "20:40",
+   "version": "OV"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Studio",
+   "date": "2026-11-16",
+   "time": "21:00",
+   "version": ""
+  },
+  {
+   "title": "Identitti",
+   "cinema": "3001",
+   "date": "2026-11-16",
+   "time": "21:15",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "21:15",
+   "version": "DF"
+  },
+  {
+   "title": "Beware Boiúna",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "21:30",
+   "version": "DF"
   },
   {
    "title": "Her Private Hell",
@@ -624,6 +2227,34 @@
    "version": "OmU"
   },
   {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "21:45",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "22:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "22:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "22:15",
+   "version": "DF"
+  },
+  {
    "title": "Pan's Labyrinth",
    "cinema": "Abaton",
    "date": "2026-11-16",
@@ -631,8 +2262,239 @@
    "version": "OmU"
   },
   {
+   "title": "Clayface",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "22:50",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-16",
+   "time": "22:50",
+   "version": "OV"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Beware Boiúna",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-16",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "13:20",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "13:25",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "13:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "13:40",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Monster Mia",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "14:05",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Das gewisse Etwas",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "14:20",
+   "version": "DF"
+  },
+  {
    "title": "Helene Weigel - Revolutionärin im Rampenlicht",
    "cinema": "Abaton",
+   "date": "2026-11-17",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Forgotten Island",
+   "cinema": "Kinopolis HafenCity",
    "date": "2026-11-17",
    "time": "14:30",
    "version": "DF"
@@ -645,6 +2507,69 @@
    "version": "OmU"
   },
   {
+   "title": "Geister",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "14:45",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Savoy",
+   "date": "2026-11-17",
+   "time": "14:45",
+   "version": "OV"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "14:50",
+   "version": "DF"
+  },
+  {
+   "title": "25 Jahre Garten der Frauen",
+   "cinema": "3001",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "version": "OV"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "15:05",
+   "version": "DF"
+  },
+  {
    "title": "Wild Horse Nine",
    "cinema": "Abaton",
    "date": "2026-11-17",
@@ -652,10 +2577,199 @@
    "version": "OmU"
   },
   {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Street Fighter",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Sternbrücke FOREVER",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "version": ""
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "16:10",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "16:20",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
    "title": "Identitti",
    "cinema": "Abaton",
    "date": "2026-11-17",
    "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Helene Weigel - Revolutionärin im Rampenlicht",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "16:45",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "16:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Wolz – Leben und Verklärung eines deutschen Anarchisten",
+   "cinema": "Metropolis",
+   "date": "2026-11-17",
+   "time": "17:00",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "17:10",
    "version": "DF"
   },
   {
@@ -666,6 +2780,76 @@
    "version": "OmU"
   },
   {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "17:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "17:15",
+   "version": "OV"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
    "title": "NAZA",
    "cinema": "Abaton",
    "date": "2026-11-17",
@@ -673,10 +2857,213 @@
    "version": "OmU"
   },
   {
+   "title": "Drei Kameradinnen",
+   "cinema": "FilmRaum",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "version": "OV"
+  },
+  {
+   "title": "Biermann",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Adams Acht",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "18:40",
+   "version": "OV"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "18:50",
+   "version": "DF"
+  },
+  {
    "title": "Geister",
    "cinema": "Abaton",
    "date": "2026-11-17",
    "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Eiserne Wildnis - Heart of the Beast",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "19:10",
+   "version": "DF"
+  },
+  {
+   "title": "Die Odyssee",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "19:15",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "19:20",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Sinn und Sinnlichkeit",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wernher von Braun – Ich greife nach den Sternen",
+   "cinema": "Metropolis",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "version": ""
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "19:50",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "19:50",
+   "version": "DF"
+  },
+  {
+   "title": "Gewinnerrolle des deutschen Kurzfilmpreis 2026",
+   "cinema": "3001",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "20:00",
    "version": "DF"
   },
   {
@@ -694,11 +3081,102 @@
    "version": "OmU"
   },
   {
+   "title": "Beware Boiúna",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "20:10",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die andere Seite",
+   "cinema": "FilmRaum",
+   "date": "2026-11-17",
+   "time": "20:15",
+   "version": ""
+  },
+  {
    "title": "Prestige - Die Meister der Magie",
    "cinema": "Savoy",
    "date": "2026-11-17",
    "time": "20:15",
    "version": "OV"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Passage",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "20:30",
+   "version": ""
   },
   {
    "title": "Wild Horse Nine",
@@ -708,6 +3186,20 @@
    "version": "OmU"
   },
   {
+   "title": "Sneak Preview",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "20:40",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "20:45",
+   "version": "DF"
+  },
+  {
    "title": "Her Private Hell",
    "cinema": "Abaton",
    "date": "2026-11-17",
@@ -715,10 +3207,115 @@
    "version": "OmU"
   },
   {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "version": "DF"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Studio",
+   "date": "2026-11-17",
+   "time": "21:15",
+   "version": ""
+  },
+  {
+   "title": "Beware Boiúna",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "21:30",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "21:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ramayana: Rise of a Legend",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "22:00",
+   "version": "DF"
+  },
+  {
    "title": "Sneak Preview",
    "cinema": "Abaton",
    "date": "2026-11-17",
    "time": "22:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "22:45",
+   "version": "OV"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "22:45",
+   "version": "OV"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "22:45",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-17",
+   "time": "22:50",
+   "version": "DF"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "23:05",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "23:15",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-17",
+   "time": "23:15",
    "version": "DF"
   },
   {
@@ -743,6 +3340,216 @@
    "version": "DF"
   },
   {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "version": "OV"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "version": "OV"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "13:20",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:20",
+   "version": "DF"
+  },
+  {
+   "title": "Der frechste Troll der Welt",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:40",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Monster Mia",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:45",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "13:50",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:10",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:10",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Shaun das Schaf - Spuk im Kürbisfeld",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:25",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Sinn und Sinnlichkeit",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Forgotten Island",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Savoy",
+   "date": "2026-11-18",
+   "time": "14:30",
+   "version": "OV"
+  },
+  {
+   "title": "Eiserne Wildnis - Heart of the Beast",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:40",
+   "version": "DF"
+  },
+  {
    "title": "Die Blutgräfin",
    "cinema": "Abaton",
    "date": "2026-11-18",
@@ -750,8 +3557,36 @@
    "version": "OmU"
   },
   {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "14:45",
+   "version": "DF"
+  },
+  {
+   "title": "Bibi Blocksberg - Die total verhexte Zeitreise",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "14:45",
+   "version": "DF"
+  },
+  {
    "title": "Identitti",
    "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Festtagsspaß mit Peppa – Das Kinoerlebnis",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
    "date": "2026-11-18",
    "time": "15:00",
    "version": "DF"
@@ -764,6 +3599,111 @@
    "version": "OmU"
   },
   {
+   "title": "Chopin - Eine Sonate in Paris",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Frau Winkler verlässt das Haus",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Her Private Hell",
+   "cinema": "Studio",
+   "date": "2026-11-18",
+   "time": "15:30",
+   "version": ""
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "15:50",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Street Fighter",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Emil und die Detektive",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "16:10",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die guten Feinde",
+   "cinema": "Metropolis",
+   "date": "2026-11-18",
+   "time": "16:30",
+   "version": ""
+  },
+  {
    "title": "Der Tod ist ein Arschloch",
    "cinema": "Zeise",
    "date": "2026-11-18",
@@ -771,8 +3711,134 @@
    "version": "DF"
   },
   {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "16:45",
+   "version": "OmU"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:45",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "16:50",
+   "version": "DF"
+  },
+  {
+   "title": "Zeit der roten Nelken",
+   "cinema": "3001",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "version": ""
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Sinn und Sinnlichkeit",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "17:05",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "17:10",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "17:10",
+   "version": "DF"
+  },
+  {
    "title": "Geister",
    "cinema": "Abaton",
+   "date": "2026-11-18",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "17:15",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "17:15",
+   "version": "OV"
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "cinema": "Kinopolis HafenCity",
    "date": "2026-11-18",
    "time": "17:15",
    "version": "DF"
@@ -785,11 +3851,165 @@
    "version": "OmU"
   },
   {
+   "title": "Godzilla Minus Zero",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "17:20",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Savoy",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "version": "OV"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "17:40",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die andere Seite",
+   "cinema": "FilmRaum",
+   "date": "2026-11-18",
+   "time": "17:45",
+   "version": ""
+  },
+  {
+   "title": "Alte Liebe",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Vaterland",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "18:40",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "18:50",
+   "version": "DF"
+  },
+  {
+   "title": "Hot Cunt – Reconsidering Pleasure",
+   "cinema": "3001",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "version": ""
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "version": "OV"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "19:10",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "19:10",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "19:15",
+   "version": "OV"
+  },
+  {
    "title": "Isla Santa María & Isla del Trueno",
    "cinema": "Abaton",
    "date": "2026-11-18",
    "time": "19:30",
    "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "version": "DF"
   },
   {
    "title": "Minotaurus",
@@ -799,11 +4019,186 @@
    "version": "OmU"
   },
   {
-   "title": "La Bola negra",
-   "cinema": "FilmRaum",
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "19:40",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "19:45",
+   "version": "OV"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
    "date": "2026-11-18",
    "time": "20:00",
    "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "FilmRaum",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "Rasputin (1932)",
+   "cinema": "Metropolis",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": ""
+  },
+  {
+   "title": "Heimsuchung - Eine Jahrhundertgeschichte",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "20:10",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "20:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "20:15",
+   "version": "OV"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Savoy",
+   "date": "2026-11-18",
+   "time": "20:15",
+   "version": "OV"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "20:20",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Holi",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Verity - Dunkle Geheimnisse",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wild Horse Nine",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Geister",
+   "cinema": "Passage",
+   "date": "2026-11-18",
+   "time": "20:30",
+   "version": "DF"
   },
   {
    "title": "Wild Horse Nine",
@@ -813,11 +4208,46 @@
    "version": "OmU"
   },
   {
+   "title": "Minotaurus",
+   "cinema": "3001",
+   "date": "2026-11-18",
+   "time": "21:15",
+   "version": ""
+  },
+  {
    "title": "Her Private Hell",
    "cinema": "Abaton",
    "date": "2026-11-18",
    "time": "21:30",
    "version": "OmU"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "21:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "21:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "22:00",
+   "version": "DF"
+  },
+  {
+   "title": "Der perfekte Urlaub",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "22:00",
+   "version": "DF"
   },
   {
    "title": "Eine letzte Runde",
@@ -827,11 +4257,256 @@
    "version": "OmU"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "22:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "22:45",
+   "version": "OV"
+  },
+  {
+   "title": "Ebenezer - Eine Weihnachtsgeschichte",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "22:50",
+   "version": "DF"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-18",
+   "time": "22:50",
+   "version": "OV"
+  },
+  {
+   "title": "Clayface",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "23:00",
+   "version": "DF"
+  },
+  {
+   "title": "Other Mommy",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "23:15",
+   "version": "DF"
+  },
+  {
+   "title": "How to Rob a Bank",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "23:15",
+   "version": "DF"
+  },
+  {
+   "title": "Beware Boiúna",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-18",
+   "time": "23:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Herrscher ohne Krone",
+   "cinema": "Metropolis",
+   "date": "2026-11-19",
+   "time": "14:30",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "15:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-19",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "15:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "16:15",
+   "version": "OV"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "16:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Leise flehen meine Lieder",
+   "cinema": "Metropolis",
+   "date": "2026-11-19",
+   "time": "17:00",
+   "version": ""
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-19",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "17:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "17:45",
+   "version": "OV"
+  },
+  {
+   "title": "Wiener Blues – The Loneliest Man in Town",
+   "cinema": "FilmRaum",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "Light Memories",
+   "cinema": "3001",
+   "date": "2026-11-19",
+   "time": "18:15",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "version": "OV"
+  },
+  {
+   "title": "Bismarck (1940)",
+   "cinema": "Metropolis",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "version": ""
+  },
+  {
    "title": "Die Venus von Paris",
    "cinema": "Zeise",
    "date": "2026-11-19",
    "time": "19:00",
    "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "version": "DF"
   },
   {
    "title": "You Can See Everything",
@@ -848,11 +4523,123 @@
    "version": "OmU"
   },
   {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "19:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
    "title": "Die Tribute von Panem - Sunrise on the Reaping",
    "cinema": "Savoy",
    "date": "2026-11-19",
    "time": "20:00",
    "version": "OV"
+  },
+  {
+   "title": "You Can See Everything",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "20:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Identitti",
+   "cinema": "FilmRaum",
+   "date": "2026-11-19",
+   "time": "20:15",
+   "version": ""
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "3001",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-19",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Cakallarla Dans 8: Sututgart Cikarmasi",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "20:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Königin und der Leibarzt",
+   "cinema": "Metropolis",
+   "date": "2026-11-19",
+   "time": "21:30",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-19",
+   "time": "22:45",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "14:15",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "14:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "15:00",
+   "version": "DF"
   },
   {
    "title": "Die Tribute von Panem - Sunrise on the Reaping",
@@ -862,10 +4649,136 @@
    "version": "OV"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-20",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "15:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "16:15",
+   "version": "OV"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "16:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Jud Süß (1934)",
+   "cinema": "Metropolis",
+   "date": "2026-11-20",
+   "time": "17:00",
+   "version": ""
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-20",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "17:45",
+   "version": "DF"
+  },
+  {
+   "title": "Biermann",
+   "cinema": "FilmRaum",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "version": "DF"
+  },
+  {
+   "title": "2m² – Wo ist Dein Platz für die Ewigkeit?",
+   "cinema": "3001",
+   "date": "2026-11-20",
+   "time": "18:30",
+   "version": ""
+  },
+  {
    "title": "You Can See Everything",
    "cinema": "Savoy",
    "date": "2026-11-20",
    "time": "18:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "19:00",
    "version": "OV"
   },
   {
@@ -874,6 +4787,153 @@
    "date": "2026-11-20",
    "time": "19:00",
    "version": "OmU"
+  },
+  {
+   "title": "Das Attentat (1964)",
+   "cinema": "Metropolis",
+   "date": "2026-11-20",
+   "time": "19:15",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-20",
+   "time": "20:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "3001",
+   "date": "2026-11-20",
+   "time": "20:45",
+   "version": ""
+  },
+  {
+   "title": "Hadoota",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "20:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Mayerling",
+   "cinema": "Metropolis",
+   "date": "2026-11-20",
+   "time": "21:30",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "21:40",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "22:15",
+   "version": "DF"
+  },
+  {
+   "title": "Sneak Preview",
+   "cinema": "Savoy",
+   "date": "2026-11-20",
+   "time": "22:15",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-20",
+   "time": "22:45",
+   "version": "OV"
+  },
+  {
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "BTS World Tour 'Arirang' in Kaohsiung: Live Viewing",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "11:45",
+   "version": "DF"
+  },
+  {
+   "title": "BTS World Tour 'Arirang' in Kaohsiung: Live Viewing",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "11:45",
+   "version": "DF"
+  },
+  {
+   "title": "BTS World Tour 'Arirang' in Kaohsiung: Live Viewing",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "11:45",
+   "version": "DF"
   },
   {
    "title": "De Gaulle - Zeit des Widerstands",
@@ -897,11 +4957,172 @@
    "version": "DF"
   },
   {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "14:50",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "16:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Luise, Königin von Preußen",
+   "cinema": "Metropolis",
+   "date": "2026-11-21",
+   "time": "17:00",
+   "version": ""
+  },
+  {
+   "title": "Nasza rewolucja",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "17:10",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "17:40",
+   "version": "OmU"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "3001",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "version": ""
+  },
+  {
    "title": "Die Tribute von Panem - Sunrise on the Reaping",
    "cinema": "Savoy",
    "date": "2026-11-21",
    "time": "18:15",
    "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Max Hölz. Ein deutsches Lehrstück",
+   "cinema": "Metropolis",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "version": ""
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-21",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Wer sind Sie, Dr. Sorge?",
+   "cinema": "Metropolis",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "version": ""
   },
   {
    "title": "Asche und Diamant",
@@ -925,6 +5146,13 @@
    "version": "DF"
   },
   {
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "version": "DF"
+  },
+  {
    "title": "Les Misérables",
    "cinema": "Zeise",
    "date": "2026-11-22",
@@ -932,11 +5160,39 @@
    "version": "OmU"
   },
   {
-   "title": "RBO Live 2026/27: Manon (Royal Ballet)",
-   "cinema": "Passage",
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Harburg",
    "date": "2026-11-22",
-   "time": "12:00",
+   "time": "11:30",
    "version": "DF"
+  },
+  {
+   "title": "Die Biene Maja – Der Kinofilm",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "11:30",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Dein ist mein Herz",
+   "cinema": "Metropolis",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "version": ""
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "14:10",
+   "version": "OmU"
   },
   {
    "title": "Emil und die Detektive",
@@ -947,16 +5203,107 @@
   },
   {
    "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "15:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
    "cinema": "Savoy",
    "date": "2026-11-22",
    "time": "15:30",
    "version": "OV"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "version": "OV"
+  },
+  {
+   "title": "Nasza rewolucja",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "16:15",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "version": "DF"
+  },
+  {
+   "title": "La Bola Negra",
+   "cinema": "3001",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "version": ""
+  },
+  {
    "title": "Parallele Leben",
    "cinema": "Abaton",
    "date": "2026-11-22",
    "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "17:20",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "17:30",
+   "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "17:45",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "19:00",
    "version": "DF"
   },
   {
@@ -967,11 +5314,60 @@
    "version": "OV"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "19:30",
+   "version": "OV"
+  },
+  {
+   "title": "Fjord",
+   "cinema": "FilmRaum",
+   "date": "2026-11-22",
+   "time": "19:45",
+   "version": ""
+  },
+  {
+   "title": "Fantasy",
+   "cinema": "3001",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": ""
+  },
+  {
    "title": "Bearcave",
    "cinema": "Abaton",
    "date": "2026-11-22",
    "time": "20:00",
    "version": "OmU"
+  },
+  {
+   "title": "Akte Vuskovic - Doping. Skandal. Zweifel.",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Sam Dylan: Iconic Drama Staffel 2",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "version": "DF"
   },
   {
    "title": "Wholetrain",
@@ -981,11 +5377,60 @@
    "version": "DF"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-22",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
    "title": "Dry Leaf",
    "cinema": "Abaton",
    "date": "2026-11-23",
    "time": "13:30",
    "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-23",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-23",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-23",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-23",
+   "time": "19:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-23",
+   "time": "19:10",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "version": "OV"
   },
   {
    "title": "Vaterland",
@@ -1023,10 +5468,59 @@
    "version": "DF"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-24",
+   "time": "16:15",
+   "version": "DF"
+  },
+  {
    "title": "The King of Comedy",
    "cinema": "Abaton",
    "date": "2026-11-24",
    "time": "17:00",
+   "version": "OmU"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-24",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-24",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Puella Magi Madoka Magica Der Film - Walpurgisnacht: Rising",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-24",
+   "time": "17:45",
    "version": "OmU"
   },
   {
@@ -1037,6 +5531,55 @@
    "version": "OmU"
   },
   {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-24",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "Savoy",
+   "date": "2026-11-24",
+   "time": "20:00",
+   "version": "OV"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-24",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-24",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-25",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-25",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-25",
+   "time": "17:00",
+   "version": "DF"
+  },
+  {
    "title": "Eternity",
    "cinema": "Abaton",
    "date": "2026-11-25",
@@ -1044,11 +5587,60 @@
    "version": "OmU"
   },
   {
+   "title": "I Play Rocky",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-25",
+   "time": "19:45",
+   "version": "DF"
+  },
+  {
+   "title": "Meine Frau, unsere Schwiegertochter und ich",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
+   "title": "Meine Frau, unsere Schwiegertochter und ich",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "version": "DF"
+  },
+  {
    "title": "You Can See Everything",
    "cinema": "Savoy",
    "date": "2026-11-25",
    "time": "20:00",
    "version": "OV"
+  },
+  {
+   "title": "Meine Frau, unsere Schwiegertochter und ich",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-25",
+   "time": "20:10",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Dammtor",
+   "date": "2026-11-25",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Harburg",
+   "date": "2026-11-25",
+   "time": "20:30",
+   "version": "DF"
+  },
+  {
+   "title": "Die Tribute von Panem - Sunrise on the Reaping",
+   "cinema": "CinemaxX Wandsbek",
+   "date": "2026-11-25",
+   "time": "20:30",
+   "version": "DF"
   },
   {
    "title": "Brunello: Der sanfte Visionär",
