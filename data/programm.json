@@ -372,6 +372,13 @@
    "version": "DF"
   },
   {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "10:40",
+   "version": ""
+  },
+  {
    "title": "Between Times",
    "cinema": "Abaton",
    "date": "2026-11-15",
@@ -449,11 +456,25 @@
    "version": "DF"
   },
   {
+   "title": "Wildwood",
+   "cinema": "Savoy",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "version": ""
+  },
+  {
    "title": "Wild Horse Nine",
    "cinema": "Abaton",
    "date": "2026-11-15",
    "time": "17:00",
    "version": "OmU"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "17:15",
+   "version": ""
   },
   {
    "title": "Geister",
@@ -468,6 +489,13 @@
    "date": "2026-11-15",
    "time": "17:45",
    "version": "OmU"
+  },
+  {
+   "title": "Wildwood",
+   "cinema": "Kinopolis HafenCity",
+   "date": "2026-11-15",
+   "time": "18:40",
+   "version": ""
   },
   {
    "title": "Der Herr der Ringe - Die zwei Türme",
