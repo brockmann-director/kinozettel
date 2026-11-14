@@ -249,6 +249,9 @@ function vWatch(){
   if(seen.length) h += `<div class="sec">Gesehen</div><div class="grid">${seen.map(card).join('')}</div>`;
   return h;
 }
+function myCinemas(){ const raw=(S.me&&S.me.profile&&S.me.profile.cinemas)||''; return String(raw).split(/[,;\n]/).map(s=>norm(s)).filter(s=>s.length>=3); }
+function cinemaMine(c, mine){ const n=norm(c); return mine.some(m => n.includes(m) || m.includes(n) || n.split(' ')[0]===m.split(' ')[0]); }
+function myDirectors(){ const raw=(S.me&&S.me.profile&&S.me.profile.directors)||''; return String(raw).split(/[,;\n]/).map(s=>norm(s)).filter(s=>s.length>=4); }
 function vProg(){
   const up = upcoming();
   const by = new Map();
@@ -256,7 +259,9 @@ function vProg(){
   let films = [...by.values()].sort((a,b)=>a.title.localeCompare(b.title,'de'));
   if(S.q) films = films.filter(f => norm(f.title).includes(norm(S.q)) || f.shows.some(x => norm(x.cinema).includes(norm(S.q))));
   if(S.fOV) films = films.filter(f => f.shows.some(x => isOU(x.version)));
-  let h = `<div class="filters"><input type="search" id="q" placeholder="Film oder Kino suchen" value="${esc(S.q)}" style="max-width:320px"><button class="chip ${S.fOV?'on':''}" data-f="ov">Nur OmU / OV</button></div>`;
+  const mine = myCinemas(); const useMine = mine.length && S.fMine !== false;
+  if(useMine) films = films.map(f => ({...f, shows: f.shows.filter(x => cinemaMine(x.cinema, mine))})).filter(f => f.shows.length);
+  let h = `<div class="filters"><input type="search" id="q" placeholder="Film oder Kino suchen" value="${esc(S.q)}" style="max-width:320px"><button class="chip ${S.fOV?'on':''}" data-f="ov">Nur OmU / OV</button>${mine.length?`<button class="chip ${useMine?'on':''}" data-f="mine">Nur meine Kinos</button>`:''}</div>`;
   h += `<div class="note">Alles, was in den nächsten Tagen in den Hamburger Programmkinos läuft${S.prog&&S.prog.window?' ('+esc(dShort(S.prog.window.from))+' – '+esc(dShort(S.prog.window.to))+')':''}. Titel antippen für eine Kurzbeschreibung, Termin antippen zum Einladen, mit „+ Watchlist“ merkst du dir einen Film.</div>`;
   if(!films.length) return h + `<div class="empty">${up.length?'Nichts gefunden.':'Das Programm wird gerade aktualisiert – schau später nochmal rein.'}</div>`;
   return h + films.map(f => {
@@ -274,11 +279,12 @@ function vTipps(){
   let h = `<div class="note">Tipps in drei Rubriken – jede Woche neu.</div>`;
   if(!it.length) return h + `<div class="empty">Diese Woche noch keine Tipps.</div>`;
   for(const [lane,head,sub] of LANES){
-    const L = it.filter(s => (s.lane||'fit')===lane);
+    const dirs = myDirectors(); const isMine = s => s.director && dirs.some(d => norm(s.director).includes(d) || d.includes(norm(s.director)));
+    const L = it.filter(s => (s.lane||'fit')===lane).sort((a,b) => isMine(b) - isMine(a));
     if(!L.length) continue;
     h += `<h2 class="lane">${esc(head)}</h2><div class="meta lanesub">${esc(sub)}</div><div class="grid">` + L.map(s => {
       const on = !!filmFor(s.title);
-      const badge = lane==='soon' && s.deStart ? 'ab '+deDate(s.deStart)+(s.where?' · '+s.where:'') : (s.where||'');
+      const badge = (isMine(s)?'★ Deine Regie · ':'') + (lane==='soon' && s.deStart ? 'ab '+deDate(s.deStart)+(s.where?' · '+s.where:'') : (s.where||''));
       return `<div class="card"><span class="status ${s.running?'st-run':'st-soon'}">${esc(badge)}</span><h3${infoT(s.title)}>${esc(s.title)}</h3><div class="meta">${esc([s.director,s.year].filter(Boolean).join(' · '))}</div><div class="why">${esc(s.why||'')}</div>
       <div class="row">${on?`<button class="btn" disabled>Auf der Watchlist ✓</button>`:`<button class="btn pri" data-take="${esc(s.title)}">${lane==='soon'?'Vormerken':'+ Watchlist'}</button>`}</div></div>`;
     }).join('') + `</div>`;
@@ -289,8 +295,8 @@ function vProfil(){
   const p = S.me.profile || {};
   return `<div class="note">Was du gern siehst – hilft bei den Tipps. Alles freiwillig.</div>
   <label class="f">Genres & Filme, die du magst</label><textarea id="pLikes">${esc(p.likes||'')}</textarea>
-  <label class="f">Lieblingsregie</label><input type="text" id="pDirectors" value="${esc(p.directors||'')}">
-  <label class="f">Lieblingskinos</label><input type="text" id="pCinemas" value="${esc(p.cinemas||'')}">
+  <label class="f">Lieblingsregie <span class="meta">(Tipps dieser Regie kommen nach oben)</span></label><input type="text" id="pDirectors" value="${esc(p.directors||'')}">
+  <label class="f">Lieblingskinos <span class="meta">(filtert dein Programm, mit Komma trennen)</span></label><input type="text" id="pCinemas" value="${esc(p.cinemas||'')}">
   <label class="f">Lieber nicht</label><textarea id="pAvoid">${esc(p.avoid||'')}</textarea>
   <div style="margin-top:16px"><button class="btn pri" id="pSave">Speichern</button> <span class="meta" id="pSaved"></span></div>
   <div class="note" style="margin-top:28px"><b>Tipp:</b> Auf dem iPhone in Safari „Teilen → Zum Home-Bildschirm“ – dann ist der Kinozettel wie eine App da. Den Link nicht weitergeben, er ist dein persönlicher Zugang.</div>`;
@@ -300,7 +306,7 @@ function bind(){
   document.querySelectorAll('[data-info]').forEach(el => el.onclick = e => { e.stopPropagation(); S.info = el.dataset.info; render(); });
   const ov = $('#ov'); if(ov) ov.onclick = e => { if(e.target.id === 'ov' || e.target.id === 'ovx'){ S.info = null; S.share = null; render(); } };
   bindShare();
-  document.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { if(b.dataset.f==='ov') S.fOV=!S.fOV; else S.fEve=!S.fEve; render(); });
+  document.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { if(b.dataset.f==='ov') S.fOV=!S.fOV; else if(b.dataset.f==='mine') S.fMine = (S.fMine===false); else S.fEve=!S.fEve; render(); });
   document.querySelectorAll('[data-plan]').forEach(b => b.onclick = () => {
     const x = upcoming().find(y => planKey(y) === b.dataset.plan); if(!x) return; b.disabled = true;
     act('kz_plan', {p_title:x.title, p_cinema:x.cinema, p_date:x.date, p_time:x.time, p_version:x.version||''});
