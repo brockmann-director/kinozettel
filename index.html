@@ -48,6 +48,22 @@ nav button.on{background:var(--accent);color:var(--accent-ink);border-color:var(
 .btn.ghost{background:transparent}
 .btn:disabled{opacity:.5;cursor:default}
 .empty{color:var(--dim);text-align:center;padding:30px 10px;border:1px dashed var(--line);border-radius:var(--r)}
+.strip{display:grid;gap:4px;margin-top:4px}
+.strip button{display:flex;flex-direction:column;align-items:center;gap:1px;padding:5px 0;border-radius:8px;background:var(--panel2);border:1px solid var(--line);cursor:pointer;color:var(--ink);min-width:0}
+.strip button.none{color:var(--dim);cursor:default;opacity:.55}
+.strip button.sel{border-color:var(--accent)}
+.strip .wd{font-size:10px;color:var(--muted)} .strip .dn{font-size:12px;font-weight:600}
+.strip .dot{width:6px;height:6px;border-radius:50%;background:transparent} .strip .dot.on{background:var(--accent)}
+.dayx{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;flex-direction:column;gap:6px}
+.cr{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.cn{font-size:12px;color:var(--muted);min-width:110px}
+.slotb{font-family:"Geist Mono",ui-monospace,monospace;font-size:12px;padding:4px 7px;border-radius:7px;border:1px solid var(--line);background:var(--panel2);cursor:pointer}
+.slotb.planned{border-color:var(--accent);color:var(--accent)}
+.best{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.best .k{font-size:10px;font-weight:600;letter-spacing:.06em;color:var(--accent)} .best .l{font-size:13px;font-weight:600} .best .act{display:flex;gap:6px}
+.more{font-size:12px;color:var(--dim)}
+.fcards{display:flex;flex-direction:column;gap:10px}
+.trow{border-top:1px solid var(--line);padding:8px 0;display:flex;flex-direction:column;gap:5px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:6px}
 .card h3{font-weight:600;font-size:17px;letter-spacing:-.01em;margin:0;line-height:1.25}
@@ -90,8 +106,8 @@ a.btn{color:var(--ink);text-decoration:none;display:inline-block}
     <div class="stand" id="stand">lädt …</div>
   </header>
   <nav id="nav">
-    <button data-v="woche" class="on">Diese Woche</button>
-    <button data-v="watch">Watchlist</button>
+    <button data-v="filme" class="on">Meine Filme</button>
+    <button data-v="tage">Tage</button>
     <button data-v="programm">Programm</button>
     <button data-v="tipps">Tipps</button>
     <button data-v="profil">Profil</button>
@@ -103,7 +119,7 @@ a.btn{color:var(--ink);text-decoration:none;display:inline-block}
 const SB_URL = 'https://xvhuljefiqvprabpapcb.supabase.co';
 const SB_KEY = 'sb_publishable_E7jP8kgVCX3kTVs9KICmcA_M9TXuCkh';
 
-const S = { token:null, me:null, prog:null, filme:null, info:null, share:null, shareTxt:'', view:'woche', fOV:false, fEve:false, q:'', err:'', loading:true };
+const S = { token:null, me:null, prog:null, filme:null, info:null, share:null, shareTxt:'', view:'filme', open:{}, fOV:false, fEve:false, q:'', err:'', loading:true };
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const WD=['So','Mo','Di','Mi','Do','Fr','Sa'], MO=['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
@@ -205,11 +221,64 @@ function render(){
   if(!S.token) h += `<div class="note err"><b>Kein persönlicher Link.</b> Öffne die App über den Link, den du bekommen hast.</div>`;
   else if(S.loading) h += `<div class="empty">Lade …</div>`;
   else if(!S.me) h += `<div class="note err"><b>Dieser Link ist ungültig.</b> Frag nach deinem persönlichen Link.</div>`;
-  else h += ({woche:vWoche, watch:vWatch, programm:vProg, tipps:vTipps, profil:vProfil})[S.view]();
+  else h += (({filme:vFilme, tage:vTage, woche:vFilme, watch:vFilme, programm:vProg, tipps:vTipps, profil:vProfil})[S.view] || vFilme)();
   $('#main').innerHTML = h;
   $('#modal').innerHTML = S.share ? vShare() : vInfo();
   bind();
 }
+
+const MULTIPLEX = /cinemaxx|kinopolis|uci|astor|cinestar/i;
+function winDays(){ const w = S.prog && S.prog.window; const t = todayISO(); const from = w && w.from > t ? w.from : t; const to = w ? w.to : null; const out = []; if(!to) return out; const d = new Date(from+'T12:00:00'); for(let i=0;i<21;i++){ const iso = d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); if(iso > to) break; out.push(iso); d.setDate(d.getDate()+1); } return out; }
+function myShows(){ const mine = myCinemas(); let l = upcoming(); if(mine.length && S.fMine !== false) l = l.filter(x => cinemaMine(x.cinema, mine)); if(S.fOV) l = l.filter(x => isOU(x.version)); if(S.fEve) l = l.filter(x => x.time >= '19:00'); return l; }
+function scoreShow(x, days){ let s = 0; if(isOU(x.version)) s += 20; else if(!x.version) s += 8; if(!MULTIPLEX.test(x.cinema)) s += 8; if(x.time >= '19:00' && x.time <= '21:30') s += 10; s -= Math.max(0, days.indexOf(x.date)) * 1.5; return s; }
+const isPlanned = x => (S.me.plans||[]).some(p => planKey(p) === planKey(x));
+function plansBlock(){ const plans = S.me.plans || []; if(!plans.length) return ''; return `<div class="sec" style="margin-top:4px">Vorgemerkt</div>` + plans.map(p => `<div class="plan"><div><span class="ft info" data-info="${esc(p.title)}">${esc(p.title)}</span> <span class="meta">· ${esc(dShort(p.date))} ${esc(p.time)} · ${esc(p.cinema)}${p.version?' · '+esc(p.version):''}</span></div><div class="act"><button class="btn ghost"${shareAttr(p)}>Einladen</button><button class="btn ghost" data-unplan="${esc(p.id)}">Entfernen</button></div></div>`).join(''); }
+function chips(){ const mine = myCinemas(); return `<div class="filters"><button class="chip ${S.fOV?'on':''}" data-f="ov">Nur OmU / OV</button><button class="chip ${S.fEve?'on':''}" data-f="eve">Ab 19 Uhr</button>${mine.length?`<button class="chip ${S.fMine!==false?'on':''}" data-f="mine">Nur meine Kinos</button>`:''}</div>`; }
+const slotB = x => `<button class="slotb ${isPlanned(x)?'planned':''}" ${isPlanned(x)?'disabled':`data-plan="${esc(planKey(x))}"`} title="Vormerken">${esc(x.time)}${x.version?' '+esc(x.version):''}</button>`;
+function byCinema(list){ const by = {}; list.forEach(x => (by[x.cinema] = by[x.cinema] || []).push(x)); return Object.keys(by).map(c => `<div class="cr"><span class="cn">${esc(c)}</span>${by[c].map(slotB).join('')}</div>`).join(''); }
+function vFilme(){
+  let h = plansBlock() + chips();
+  const days = winDays(); const all = myShows();
+  const films = (S.me.films || []).filter(f => f.status !== 'skip');
+  const act = films.filter(f => f.status === 'watch'), seen = films.filter(f => f.status === 'seen');
+  const cards = act.map(f => {
+    const shows = all.filter(x => sameFilm(f.title, x.title));
+    const open = S.open[f.id] || '';
+    let body = '';
+    if(shows.length){
+      body += `<div class="strip" style="grid-template-columns:repeat(${days.length},minmax(0,1fr))">` + days.map(d => { const n = shows.filter(x => x.date === d).length;
+        return `<button class="${n?'':'none'} ${open===d?'sel':''}" ${n?`data-day="${esc(f.id)}|${d}"`:'disabled'} aria-label="${esc(dShort(d))}: ${n} Vorstellungen"><span class="wd">${WD[new Date(d+'T12:00:00').getDay()]}</span><span class="dn">${+d.slice(8)}</span><span class="dot ${n?'on':''}"></span></button>`; }).join('') + `</div>`;
+      if(open) body += `<div class="dayx"><div class="meta" style="font-weight:600;color:var(--ink)">${esc(dLabel(open))}</div>${byCinema(shows.filter(x => x.date === open))}</div>`;
+      const top = shows.slice().sort((a,b) => scoreShow(b,days) - scoreShow(a,days)).slice(0,2);
+      body += top.map(x => `<div class="best"><div><div class="k">GUTER TERMIN</div><div class="l">${esc(dShort(x.date))} ${esc(x.time)} · ${esc(x.cinema)}${x.version?' · '+esc(x.version):''}</div></div><div class="act"><button class="btn ghost"${shareAttr(x)}>Einladen</button>${isPlanned(x)?`<button class="btn" disabled>✓</button>`:`<button class="btn pri" data-plan="${esc(planKey(x))}">Vormerken</button>`}</div></div>`).join('');
+      if(shows.length > top.length) body += `<div class="more">+ ${shows.length - top.length} weitere – Tag oben antippen</div>`;
+    }
+    const st = shows.length ? ['st-run', `${shows.length} Termin${shows.length>1?'e':''}`] : ['st-off','Gerade nicht im Programm'];
+    const html = `<div class="card"><div style="display:flex;justify-content:space-between;gap:8px;align-items:flex-start"><h3${infoT(f.title)}>${esc(f.title)}</h3><span class="status ${st[0]}" style="flex-shrink:0">${st[1]}</span></div>${f.note?`<div class="why">${esc(f.note)}</div>`:''}${body}
+      <div class="row"><button class="btn" data-st="${esc(f.id)}|seen">Gesehen</button><button class="btn ghost" data-st="${esc(f.id)}|skip">Entfernen</button></div></div>`;
+    return {run: shows.length > 0, html, score: shows.length ? Math.max(...shows.map(x => scoreShow(x, days))) : -999};
+  });
+  const run = cards.filter(c => c.run).sort((a,b) => b.score - a.score), off = cards.filter(c => !c.run);
+  if(run.length) h += `<div class="sec">Läuft</div><div class="fcards">${run.map(c=>c.html).join('')}</div>`;
+  if(off.length) h += `<div class="sec">Gerade nicht im Programm</div><div class="fcards">${off.map(c=>c.html).join('')}</div>`;
+  if(!act.length) h += `<div class="empty">Deine Watchlist ist noch leer. Stöber im „Programm“ oder bei den „Tipps“.</div>`;
+  h += `<div class="sec">Film hinzufügen</div><form class="add" id="addForm"><input type="text" id="addTitle" placeholder="Titel" autocomplete="off"><button class="btn pri" type="submit">Hinzufügen</button></form>`;
+  if(seen.length) h += `<div class="sec">Gesehen</div><div class="grid">${seen.map(f => `<div class="card"><span class="status st-seen">Gesehen</span><h3${infoT(f.title)}>${esc(f.title)}</h3><div class="row"><button class="btn ghost" data-st="${esc(f.id)}|watch">Doch nicht gesehen</button></div></div>`).join('')}</div>`;
+  return h;
+}
+function vTage(){
+  let h = plansBlock() + chips();
+  const all = myShows().filter(x => filmFor(x.title));
+  if(!activeFilms().length) return h + `<div class="empty">Deine Watchlist ist noch leer.</div>`;
+  if(!all.length) return h + `<div class="empty">Von deiner Watchlist läuft gerade nichts in den nächsten Tagen.</div>`;
+  for(const d of winDays()){
+    const ds = all.filter(x => x.date === d); if(!ds.length) continue;
+    const byF = {}; ds.forEach(x => { const f = filmFor(x.title); (byF[f.id] = byF[f.id] || {f, list:[]}).list.push(x); });
+    h += `<div class="card" style="margin-bottom:10px"><div class="ft">${esc(dLabel(d))}</div>` + Object.values(byF).map(o => `<div class="trow"><div class="ft"><span${infoT(o.f.title)}>${esc(o.f.title)}</span></div>${byCinema(o.list)}</div>`).join('') + `</div>`;
+  }
+  return h + `<div class="meta">Zeit antippen = vormerken. Einladen geht oben bei „Vorgemerkt“.</div>`;
+}
+
 function vWoche(){
   let h = '';
   const plans = S.me.plans || [];
@@ -250,7 +319,7 @@ function vWatch(){
   return h;
 }
 function myCinemas(){ const raw=(S.me&&S.me.profile&&S.me.profile.cinemas)||''; return String(raw).split(/[,;\n]/).map(s=>norm(s)).filter(s=>s.length>=3); }
-function cinemaMine(c, mine){ const n=norm(c); return mine.some(m => n.includes(m) || m.includes(n) || n.split(' ')[0]===m.split(' ')[0]); }
+function cinemaMine(c, mine){ const n=norm(c); return mine.some(m => n.includes(m) || m.includes(n)); }
 function myDirectors(){ const raw=(S.me&&S.me.profile&&S.me.profile.directors)||''; return String(raw).split(/[,;\n]/).map(s=>norm(s)).filter(s=>s.length>=4); }
 function vProg(){
   const up = upcoming();
@@ -306,6 +375,7 @@ function bind(){
   document.querySelectorAll('[data-info]').forEach(el => el.onclick = e => { e.stopPropagation(); S.info = el.dataset.info; render(); });
   const ov = $('#ov'); if(ov) ov.onclick = e => { if(e.target.id === 'ov' || e.target.id === 'ovx'){ S.info = null; S.share = null; render(); } };
   bindShare();
+  document.querySelectorAll('[data-day]').forEach(b => b.onclick = () => { const [fid, d] = b.dataset.day.split('|'); S.open = {...S.open, [fid]: S.open[fid] === d ? '' : d}; render(); });
   document.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { if(b.dataset.f==='ov') S.fOV=!S.fOV; else if(b.dataset.f==='mine') S.fMine = (S.fMine===false); else S.fEve=!S.fEve; render(); });
   document.querySelectorAll('[data-plan]').forEach(b => b.onclick = () => {
     const x = upcoming().find(y => planKey(y) === b.dataset.plan); if(!x) return; b.disabled = true;
@@ -334,7 +404,7 @@ $('#nav').onclick = e => { const b = e.target.closest('button'); if(!b) return; 
   const qs = new URLSearchParams(location.search);
   S.token = qs.get('k') || (()=>{ try{ return localStorage.getItem('kz_token'); }catch(_){ return null; } })();
   if(qs.get('k')){ try{ localStorage.setItem('kz_token', qs.get('k')); }catch(_){} }
-  try{ const v = localStorage.getItem('kz_view'); if(v) S.view = v; }catch(_){}
+  try{ const v = localStorage.getItem('kz_view'); if(v) S.view = (v==='woche'||v==='watch') ? 'filme' : v; }catch(_){}
   render();
   const progP = fetch('data/programm.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
   const filmeP = fetch('data/filme.json?v=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
