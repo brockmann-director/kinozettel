@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T12:00:00Z",
+ "updatedAt": "2026-11-19T07:40:00Z",
  "note": "Kurze Inhaltsangaben, eigene Worte. Zuordnung über den Titel (unscharf).",
  "items": [
   {
@@ -332,6 +332,32 @@
     "Dune 3"
    ],
    "s": "Abschluss von Denis Villeneuves Dune-Trilogie nach Frank Herberts „Der Herr des Wüstenplaneten“: Paul Atreides herrscht als Imperator, und der heilige Krieg in seinem Namen hat Folgen, die er nicht mehr kontrollieren kann."
+  },
+  {
+   "t": "Gremlins - Kleine Monster",
+   "d": "Joe Dante",
+   "y": 1984,
+   "s": "Ein Junge bekommt ein niedliches Mogwai geschenkt – mit drei Regeln: kein helles Licht, kein Wasser, nach Mitternacht nie füttern. Natürlich werden alle gebrochen, und eine Kleinstadt versinkt zu Weihnachten im Chaos. Horrorkomödie, produziert von Steven Spielberg."
+  },
+  {
+   "t": "Edward mit den Scherenhänden",
+   "d": "Tim Burton",
+   "y": 1990,
+   "s": "Ein unvollendeter Kunstmensch mit Scheren statt Händen wird aus seinem Schloss in eine pastellfarbene Vorstadt geholt. Burtons Märchen mit Johnny Depp und Winona Ryder."
+  },
+  {
+   "t": "Der Herr der Ringe - die Rückkehr des Königs (Extended Version)",
+   "d": "Peter Jackson",
+   "y": 2003,
+   "s": "Finale der Tolkien-Trilogie in der langen Fassung: Frodo und Sam erreichen den Schicksalsberg, während Aragorn sich der Schlacht um Minas Tirith stellt. Gewann 11 Oscars."
+  },
+  {
+   "t": "Leica - Ein Jahrhundert in Bildern",
+   "s": "Dokumentarfilm über 100 Jahre Leica-Kamera und die Fotografie, die mit ihr entstanden ist."
+  },
+  {
+   "t": "FROM INSIDE OUT - Die Architektur von Peter Zumthor",
+   "s": "Dokumentarfilm über den Schweizer Architekten Peter Zumthor und seine Bauten."
   }
  ]
 }
